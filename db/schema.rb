@@ -44,26 +44,25 @@ ActiveRecord::Schema.define(version: 20170108155350) do
   end
 
   create_table "moves", id: :string, force: :cascade do |t|
-    t.string  "description",                              null: false
-    t.string  "type_id",                                  null: false
-    t.string  "category_id",                              null: false
-    t.integer "power_points",                             null: false
-    t.integer "base_power",                               null: false
-    t.integer "accuracy",                                 null: false
-    t.string  "battle_effect",                            null: false
+    t.string  "description",                                              null: false
+    t.string  "type_id",                                                  null: false
+    t.string  "category_id",                                              null: false
+    t.integer "power_points",                                             null: false
+    t.integer "base_power",                                               null: false
+    t.integer "accuracy",                                                 null: false
+    t.string  "battle_effect",                                            null: false
     t.string  "secondary_effect"
     t.integer "secondary_effect_rate"
-    t.integer "speed_priority"
-    t.boolean "contact"
-    t.boolean "sound"
-    t.boolean "punch"
-    t.boolean "snatchable"
-    t.boolean "z_move"
-    t.boolean "defrosts"
-    t.boolean "hits_opposite_side_in_triples"
-    t.boolean "reflected_by_magic_coat_and_magic_bounce"
-    t.boolean "blocked_by_protect_and_detect"
-    t.boolean "copyable_by_mirror_move"
+    t.integer "speed_priority",                           default: 0,     null: false
+    t.boolean "physical_contact",                         default: false, null: false
+    t.boolean "sound",                                    default: false, null: false
+    t.boolean "punch",                                    default: false, null: false
+    t.boolean "snatchable",                               default: false, null: false
+    t.boolean "defrosts",                                 default: false, null: false
+    t.boolean "hits_opposite_side_in_triples",            default: false, null: false
+    t.boolean "reflected_by_magic_coat_and_magic_bounce", default: false, null: false
+    t.boolean "blocked_by_protect_and_detect",            default: true,  null: false
+    t.boolean "copyable_by_mirror_move",                  default: true,  null: false
     t.index ["category_id"], name: "index_moves_on_category_id", using: :btree
     t.index ["description"], name: "index_moves_on_description", using: :btree
     t.index ["type_id"], name: "index_moves_on_type_id", using: :btree

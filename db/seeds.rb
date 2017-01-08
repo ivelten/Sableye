@@ -20,11 +20,11 @@ water    = Type.create(id: 'Water')
 
 # Move categories
 physical = MoveCategory.create(id: 'Physical')
-special = MoveCategory.create(id: 'Special')
-other = MoveCategory.create(id: 'Other')
+special  = MoveCategory.create(id: 'Special')
+other    = MoveCategory.create(id: 'Other')
 
 # Abilities
-overgrow = Ability.create(id: 'Overgrow', description: 'Overgrow')
+overgrow    = Ability.create(id: 'Overgrow', description: 'Overgrow')
 chlorophyll = Ability.create(id: 'Chlorophyll', description: 'Chlorophyll')
 
 # Pokémon
@@ -49,4 +49,19 @@ bulbasaur = Pokemon.create(
     type_2: poison,
     ability_1: overgrow,
     hidden_ability: chlorophyll
+)
+
+# Moves
+accelerock = Move.create(
+    id: 'Accelerock',
+    description: 'Accelerock',
+    type: rock,
+    category: physical,
+    power_points: 20,
+    base_power: 40,
+    accuracy: 100,
+    battle_effect: 'The user smashes into the target at high speed. This move always goes first.',
+    secondary_effect: 'Has increased Speed Priority',
+    speed_priority: 1,
+    physical_contact: true
 )

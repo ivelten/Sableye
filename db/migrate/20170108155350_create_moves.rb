@@ -11,17 +11,16 @@ class CreateMoves < ActiveRecord::Migration[5.0]
       t.string :battle_effect, null: false
       t.string :secondary_effect
       t.integer :secondary_effect_rate
-      t.integer :speed_priority
-      t.boolean :contact
-      t.boolean :sound
-      t.boolean :punch
-      t.boolean :snatchable
-      t.boolean :z_move
-      t.boolean :defrosts
-      t.boolean :hits_opposite_side_in_triples
-      t.boolean :reflected_by_magic_coat_and_magic_bounce
-      t.boolean :blocked_by_protect_and_detect
-      t.boolean :copyable_by_mirror_move
+      t.integer :speed_priority, null: false, default: 0
+      t.boolean :physical_contact, null: false, default: false
+      t.boolean :sound, null: false, default: false
+      t.boolean :punch, null: false, default: false
+      t.boolean :snatchable, null: false, default: false
+      t.boolean :defrosts, null: false, default: false
+      t.boolean :hits_opposite_side_in_triples, null: false, default: false
+      t.boolean :reflected_by_magic_coat_and_magic_bounce, null: false, default: false
+      t.boolean :blocked_by_protect_and_detect, null: false, default: true
+      t.boolean :copyable_by_mirror_move, null: false, default: true
     end
     add_foreign_key :moves, :types, name: :fk_moves_types, column: :type_id
     add_foreign_key :moves, :move_categories, name: :fk_moves_categories, column: :category_id
