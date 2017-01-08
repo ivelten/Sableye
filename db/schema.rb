@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170108144243) do
+ActiveRecord::Schema.define(version: 20170108155350) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,12 +28,46 @@ ActiveRecord::Schema.define(version: 20170108144243) do
     t.string  "ability_1_id",      null: false
     t.string  "ability_2_id"
     t.string  "hidden_ability_id", null: false
+    t.integer "attack",            null: false
+    t.integer "defense",           null: false
+    t.integer "sp_attack",         null: false
+    t.integer "sp_defense",        null: false
+    t.integer "speed",             null: false
     t.index ["ability_1_id"], name: "index_alola_forms_on_ability_1_id", using: :btree
     t.index ["ability_2_id"], name: "index_alola_forms_on_ability_2_id", using: :btree
     t.index ["hidden_ability_id"], name: "index_alola_forms_on_hidden_ability_id", using: :btree
     t.index ["pokemon_id"], name: "index_alola_forms_on_pokemon_id", using: :btree
     t.index ["type_1_id"], name: "index_alola_forms_on_type_1_id", using: :btree
     t.index ["type_2_id"], name: "index_alola_forms_on_type_2_id", using: :btree
+  end
+
+  create_table "move_categories", id: :string, force: :cascade do |t|
+  end
+
+  create_table "moves", id: :string, force: :cascade do |t|
+    t.string  "description",                              null: false
+    t.string  "type_id",                                  null: false
+    t.string  "category_id",                              null: false
+    t.integer "power_points",                             null: false
+    t.integer "base_power",                               null: false
+    t.integer "accuracy",                                 null: false
+    t.string  "battle_effect",                            null: false
+    t.string  "secondary_effect"
+    t.integer "secondary_effect_rate"
+    t.integer "speed_priority"
+    t.boolean "contact"
+    t.boolean "sound"
+    t.boolean "punch"
+    t.boolean "snatchable"
+    t.boolean "z_move"
+    t.boolean "defrosts"
+    t.boolean "hits_opposite_side_in_triples"
+    t.boolean "reflected_by_magic_coat_and_magic_bounce"
+    t.boolean "blocked_by_protect_and_detect"
+    t.boolean "copyable_by_mirror_move"
+    t.index ["category_id"], name: "index_moves_on_category_id", using: :btree
+    t.index ["description"], name: "index_moves_on_description", using: :btree
+    t.index ["type_id"], name: "index_moves_on_type_id", using: :btree
   end
 
   create_table "pokemons", id: :integer, force: :cascade do |t|
@@ -46,6 +80,12 @@ ActiveRecord::Schema.define(version: 20170108144243) do
     t.decimal "male_gender_ratio", null: false
     t.integer "experience_growth", null: false
     t.integer "base_happiness",    null: false
+    t.integer "hp",                null: false
+    t.integer "attack",            null: false
+    t.integer "defense",           null: false
+    t.integer "sp_attack",         null: false
+    t.integer "sp_defense",        null: false
+    t.integer "speed",             null: false
     t.string  "type_1_id",         null: false
     t.string  "type_2_id"
     t.string  "ability_1_id",      null: false
@@ -63,6 +103,8 @@ ActiveRecord::Schema.define(version: 20170108144243) do
   add_foreign_key "alola_forms", "pokemons", name: "fk_alola_forms_pokemons"
   add_foreign_key "alola_forms", "types", column: "type_1_id", name: "fk_alola_forms_types_1"
   add_foreign_key "alola_forms", "types", column: "type_2_id", name: "fk_alola_forms_types_2"
+  add_foreign_key "moves", "move_categories", column: "category_id", name: "fk_moves_categories"
+  add_foreign_key "moves", "types", name: "fk_moves_types"
   add_foreign_key "pokemons", "abilities", column: "ability_1_id", name: "fk_pokemons_abilities_1"
   add_foreign_key "pokemons", "abilities", column: "ability_2_id", name: "fk_pokemons_abilities_2"
   add_foreign_key "pokemons", "abilities", column: "hidden_ability_id", name: "fk_pokemons_abilities_3"

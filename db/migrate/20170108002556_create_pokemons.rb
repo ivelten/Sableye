@@ -11,6 +11,12 @@ class CreatePokemons < ActiveRecord::Migration[5.0]
       t.decimal :male_gender_ratio, null: false
       t.integer :experience_growth, null: false
       t.integer :base_happiness, null: false
+      t.integer :hp, null: false
+      t.integer :attack, null: false
+      t.integer :defense, null: false
+      t.integer :sp_attack, null: false
+      t.integer :sp_defense, null: false
+      t.integer :speed, null: false
     end
   end
 end
