@@ -15,20 +15,22 @@ ActiveRecord::Schema.define(version: 20170108155350) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "abilities", id: :string, force: :cascade do |t|
+  create_table "abilities", force: :cascade do |t|
+    t.string "name",        null: false
     t.string "description", null: false
     t.string "effect",      null: false
     t.index ["description"], name: "index_abilities_on_description", using: :btree
+    t.index ["name"], name: "index_abilities_on_name", using: :btree
   end
 
   create_table "alola_forms", primary_key: "pokemon_id", id: :integer, force: :cascade do |t|
     t.decimal "height",            null: false
     t.decimal "weight",            null: false
-    t.string  "type_1_id",         null: false
-    t.string  "type_2_id"
-    t.string  "ability_1_id",      null: false
-    t.string  "ability_2_id"
-    t.string  "hidden_ability_id", null: false
+    t.integer "type_1_id",         null: false
+    t.integer "type_2_id"
+    t.integer "ability_1_id",      null: false
+    t.integer "ability_2_id"
+    t.integer "hidden_ability_id", null: false
     t.integer "attack",            null: false
     t.integer "defense",           null: false
     t.integer "sp_attack",         null: false
@@ -41,14 +43,16 @@ ActiveRecord::Schema.define(version: 20170108155350) do
     t.index ["type_2_id"], name: "index_alola_forms_on_type_2_id", using: :btree
   end
 
-  create_table "move_categories", id: :string, force: :cascade do |t|
+  create_table "move_categories", force: :cascade do |t|
+    t.string "name",        null: false
     t.string "description", null: false
   end
 
-  create_table "moves", id: :string, force: :cascade do |t|
+  create_table "moves", force: :cascade do |t|
+    t.string  "name",                                                     null: false
     t.string  "description",                                              null: false
-    t.string  "type_id",                                                  null: false
-    t.string  "category_id",                                              null: false
+    t.integer "type_id",                                                  null: false
+    t.integer "category_id",                                              null: false
     t.integer "power_points",                                             null: false
     t.integer "base_power",                                               null: false
     t.integer "accuracy",                                                 null: false
@@ -67,6 +71,7 @@ ActiveRecord::Schema.define(version: 20170108155350) do
     t.boolean "copyable_by_mirror_move",                  default: true,  null: false
     t.index ["category_id"], name: "index_moves_on_category_id", using: :btree
     t.index ["description"], name: "index_moves_on_description", using: :btree
+    t.index ["name"], name: "index_moves_on_name", using: :btree
     t.index ["type_id"], name: "index_moves_on_type_id", using: :btree
   end
 
@@ -86,15 +91,17 @@ ActiveRecord::Schema.define(version: 20170108155350) do
     t.integer "sp_attack",         null: false
     t.integer "sp_defense",        null: false
     t.integer "speed",             null: false
-    t.string  "type_1_id",         null: false
-    t.string  "type_2_id"
-    t.string  "ability_1_id",      null: false
-    t.string  "ability_2_id"
-    t.string  "hidden_ability_id", null: false
+    t.integer "type_1_id",         null: false
+    t.integer "type_2_id"
+    t.integer "ability_1_id",      null: false
+    t.integer "ability_2_id"
+    t.integer "hidden_ability_id", null: false
     t.index ["name"], name: "index_pokemons_on_name", using: :btree
   end
 
-  create_table "types", id: :string, force: :cascade do |t|
+  create_table "types", force: :cascade do |t|
+    t.string "name", null: false
+    t.index ["name"], name: "index_types_on_name", using: :btree
   end
 
   add_foreign_key "alola_forms", "abilities", column: "ability_1_id", name: "fk_alola_forms_abilities_1"

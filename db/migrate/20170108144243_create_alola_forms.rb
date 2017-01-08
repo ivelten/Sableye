@@ -4,11 +4,11 @@ class CreateAlolaForms < ActiveRecord::Migration[5.0]
       t.integer :pokemon_id, primary_key: true
       t.decimal :height, null: false
       t.decimal :weight, null: false
-      t.string :type_1_id, null: false, index: true
-      t.string :type_2_id, index: true
-      t.string :ability_1_id, null: false, index: true
-      t.string :ability_2_id, index: true
-      t.string :hidden_ability_id, null:false, index: true
+      t.integer :type_1_id, null: false, index: true
+      t.integer :type_2_id, index: true
+      t.integer :ability_1_id, null: false, index: true
+      t.integer :ability_2_id, index: true
+      t.integer :hidden_ability_id, null:false, index: true
       t.integer :attack, null: false
       t.integer :defense, null: false
       t.integer :sp_attack, null: false

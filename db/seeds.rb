@@ -1,75 +1,75 @@
 # Pokémon types ---------------------------------------------------------------------------------------------
 
-bug      = Type.create!(id: 'Bug')
-dark     = Type.create!(id: 'Dark')
-dragon   = Type.create!(id: 'Dragon')
-electric = Type.create!(id: 'Electric')
-fairy    = Type.create!(id: 'Fairy')
-fight    = Type.create!(id: 'Fight')
-fire     = Type.create!(id: 'Fire')
-flying   = Type.create!(id: 'Flying')
-ghost    = Type.create!(id: 'Ghost')
-grass    = Type.create!(id: 'Grass')
-ground   = Type.create!(id: 'Ground')
-ice      = Type.create!(id: 'Ice')
-normal   = Type.create!(id: 'Normal')
-poison   = Type.create!(id: 'Poison')
-psychic  = Type.create!(id: 'Psychic')
-rock     = Type.create!(id: 'Rock')
-steel    = Type.create!(id: 'Steel')
-water    = Type.create!(id: 'Water')
+bug      = Type.create!(name: 'Bug')
+dark     = Type.create!(name: 'Dark')
+dragon   = Type.create!(name: 'Dragon')
+electric = Type.create!(name: 'Electric')
+fairy    = Type.create!(name: 'Fairy')
+fight    = Type.create!(name: 'Fight')
+fire     = Type.create!(name: 'Fire')
+flying   = Type.create!(name: 'Flying')
+ghost    = Type.create!(name: 'Ghost')
+grass    = Type.create!(name: 'Grass')
+ground   = Type.create!(name: 'Ground')
+ice      = Type.create!(name: 'Ice')
+normal   = Type.create!(name: 'Normal')
+poison   = Type.create!(name: 'Poison')
+psychic  = Type.create!(name: 'Psychic')
+rock     = Type.create!(name: 'Rock')
+steel    = Type.create!(name: 'Steel')
+water    = Type.create!(name: 'Water')
 
 # Move categories -------------------------------------------------------------------------------------------
 
 physical = MoveCategory.create!(
-    id: 'Physical', 
+    name: 'Physical', 
     description: 'Physical moves cause direct damage based on move base power and pokémon Attack status.'
 )
 
 special = MoveCategory.create!(
-    id: 'Special', 
+    name: 'Special', 
     description: 'Special moves cause direct damage based on move base power and pokémon Special Attack status.'
 )
 
 other = MoveCategory.create!(
-    id: 'Other', 
+    name: 'Other', 
     description: 'Moves of this category have no direct damage, instead they cause diverse effects in battle.'
 )
 
 # Abilities -------------------------------------------------------------------------------------------------
 
 overgrow = Ability.create!(
-    id: 'Overgrow', 
+    name: 'Overgrow', 
     description: 'Overgrow', 
     effect: 'When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.'
 )
 
 chlorophyll = Ability.create!(
-    id: 'Chlorophyll', 
+    name: 'Chlorophyll', 
     description: 'Chlorophyll', 
     effect: 'When sunny, the Pokémon’s Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.'
 )
 
 blaze = Ability.create!(
-    id: 'Blaze', 
+    name: 'Blaze', 
     description: 'Blaze', 
     effect: 'When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.'
 )
 
 solar_power = Ability.create!(
-    id: 'SolarPower', 
+    name: 'SolarPower', 
     description: 'Solar Power', 
     effect: 'During sunshine, the Pokémon’s Special Attack raises to 1.5 times but HP decreases by 1/8th the maximum HP every turn.'
 )
 
 torrent = Ability.create!(
-    id: 'Torrent', 
+    name: 'Torrent', 
     description: 'Torrent', 
     effect: 'HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.'
 )
 
 rain_dish = Ability.create!(
-    id: 'RainDish', 
+    name: 'RainDish', 
     description: 'Rain Dish', 
     effect: 'If Heavy Rain weather is in effect, recovers 1/16th max Hit Points at the end of the turn.'
 )
@@ -77,7 +77,7 @@ rain_dish = Ability.create!(
 # Moves -----------------------------------------------------------------------------------------------------
 
 accelerock = Move.create!(
-    id: 'Accelerock',
+    name: 'Accelerock',
     description: 'Accelerock',
     type: rock,
     category: physical,
@@ -95,7 +95,7 @@ accelerock = Move.create!(
 bulbasaur = Pokemon.create!(
     id: 1, 
     name: 'Bulbasaur', 
-    classification: 'Seed Pokémon',
+    classification: 'Seed',
     height: 0.7,
     weight: 6.9,
     capture_rate: 45,
@@ -118,7 +118,7 @@ bulbasaur = Pokemon.create!(
 ivysaur = Pokemon.create!(
     id: 2, 
     name: 'Ivysaur', 
-    classification: 'Seed Pokémon',
+    classification: 'Seed',
     height: 1.0,
     weight: 13.0,
     capture_rate: 45,
@@ -141,7 +141,7 @@ ivysaur = Pokemon.create!(
 venusaur = Pokemon.create!(
     id: 3, 
     name: 'Venusaur', 
-    classification: 'Seed Pokémon',
+    classification: 'Seed',
     height: 2.0,
     weight: 100.0,
     capture_rate: 45,
@@ -164,7 +164,7 @@ venusaur = Pokemon.create!(
 charmander = Pokemon.create!(
     id: 4, 
     name: 'Charmander', 
-    classification: 'Lizard Pokémon',
+    classification: 'Lizard',
     height: 0.6,
     weight: 8.5,
     capture_rate: 45,
@@ -186,7 +186,7 @@ charmander = Pokemon.create!(
 charmeleon = Pokemon.create!(
     id: 5, 
     name: 'Charmeleon', 
-    classification: 'Flame Pokémon',
+    classification: 'Flame',
     height: 1.1,
     weight: 19.0,
     capture_rate: 45,
@@ -208,7 +208,7 @@ charmeleon = Pokemon.create!(
 charizard = Pokemon.create!(
     id: 6, 
     name: 'Charizard', 
-    classification: 'Flame Pokémon',
+    classification: 'Flame',
     height: 1.7,
     weight: 90.5,
     capture_rate: 45,
@@ -230,7 +230,7 @@ charizard = Pokemon.create!(
 squirtle = Pokemon.create!(
     id: 7, 
     name: 'Squirtle', 
-    classification: 'Tiny Turtle Pokémon',
+    classification: 'Tiny Turtle',
     height: 0.5,
     weight: 9.0,
     capture_rate: 45,
@@ -252,7 +252,7 @@ squirtle = Pokemon.create!(
 wartortle = Pokemon.create!(
     id: 8, 
     name: 'Wartortle', 
-    classification: 'Turtle Pokémon',
+    classification: 'Turtle',
     height: 1.0,
     weight: 22.5,
     capture_rate: 45,
@@ -274,7 +274,7 @@ wartortle = Pokemon.create!(
 blastoise = Pokemon.create!(
     id: 9, 
     name: 'Blastoise', 
-    classification: 'Shellfish Pokémon',
+    classification: 'Shellfish',
     height: 1.6,
     weight: 85.5,
     capture_rate: 45,
