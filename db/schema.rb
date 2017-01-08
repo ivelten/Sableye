@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20170108155350) do
 
   create_table "abilities", id: :string, force: :cascade do |t|
     t.string "description", null: false
+    t.string "effect",      null: false
     t.index ["description"], name: "index_abilities_on_description", using: :btree
   end
 
@@ -41,6 +42,7 @@ ActiveRecord::Schema.define(version: 20170108155350) do
   end
 
   create_table "move_categories", id: :string, force: :cascade do |t|
+    t.string "description", null: false
   end
 
   create_table "moves", id: :string, force: :cascade do |t|

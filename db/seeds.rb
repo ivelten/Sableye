@@ -1,34 +1,98 @@
-# Pokémon types
-bug      = Type.create(id: 'Bug')
-dark     = Type.create(id: 'Dark')
-dragon   = Type.create(id: 'Dragon')
-electric = Type.create(id: 'Electric')
-fairy    = Type.create(id: 'Fairy')
-fight    = Type.create(id: 'Fight')
-fire     = Type.create(id: 'Fire')
-flying   = Type.create(id: 'Flying')
-ghost    = Type.create(id: 'Ghost')
-grass    = Type.create(id: 'Grass')
-ground   = Type.create(id: 'Ground')
-ice      = Type.create(id: 'Ice')
-normal   = Type.create(id: 'Normal')
-poison   = Type.create(id: 'Poison')
-psychic  = Type.create(id: 'Psychic')
-rock     = Type.create(id: 'Rock')
-steel    = Type.create(id: 'Steel')
-water    = Type.create(id: 'Water')
+# Pokémon types ---------------------------------------------------------------------------------------------
 
-# Move categories
-physical = MoveCategory.create(id: 'Physical')
-special  = MoveCategory.create(id: 'Special')
-other    = MoveCategory.create(id: 'Other')
+bug      = Type.create!(id: 'Bug')
+dark     = Type.create!(id: 'Dark')
+dragon   = Type.create!(id: 'Dragon')
+electric = Type.create!(id: 'Electric')
+fairy    = Type.create!(id: 'Fairy')
+fight    = Type.create!(id: 'Fight')
+fire     = Type.create!(id: 'Fire')
+flying   = Type.create!(id: 'Flying')
+ghost    = Type.create!(id: 'Ghost')
+grass    = Type.create!(id: 'Grass')
+ground   = Type.create!(id: 'Ground')
+ice      = Type.create!(id: 'Ice')
+normal   = Type.create!(id: 'Normal')
+poison   = Type.create!(id: 'Poison')
+psychic  = Type.create!(id: 'Psychic')
+rock     = Type.create!(id: 'Rock')
+steel    = Type.create!(id: 'Steel')
+water    = Type.create!(id: 'Water')
 
-# Abilities
-overgrow    = Ability.create(id: 'Overgrow', description: 'Overgrow')
-chlorophyll = Ability.create(id: 'Chlorophyll', description: 'Chlorophyll')
+# Move categories -------------------------------------------------------------------------------------------
 
-# Pokémon
-bulbasaur = Pokemon.create(
+physical = MoveCategory.create!(
+    id: 'Physical', 
+    description: 'Physical moves cause direct damage based on move base power and pokémon Attack status.'
+)
+
+special = MoveCategory.create!(
+    id: 'Special', 
+    description: 'Special moves cause direct damage based on move base power and pokémon Special Attack status.'
+)
+
+other = MoveCategory.create!(
+    id: 'Other', 
+    description: 'Moves of this category have no direct damage, instead they cause diverse effects in battle.'
+)
+
+# Abilities -------------------------------------------------------------------------------------------------
+
+overgrow = Ability.create!(
+    id: 'Overgrow', 
+    description: 'Overgrow', 
+    effect: 'When HP is below 1/3rd its maximum, power of Grass-type moves is increased by 50%.'
+)
+
+chlorophyll = Ability.create!(
+    id: 'Chlorophyll', 
+    description: 'Chlorophyll', 
+    effect: 'When sunny, the Pokémon’s Speed doubles. However, Speed will not double on the turn weather becomes Strong Sunlight.'
+)
+
+blaze = Ability.create!(
+    id: 'Blaze', 
+    description: 'Blaze', 
+    effect: 'When HP is below 1/3rd its maximum, power of Fire-type moves is increased by 50%.'
+)
+
+solar_power = Ability.create!(
+    id: 'SolarPower', 
+    description: 'Solar Power', 
+    effect: 'During sunshine, the Pokémon’s Special Attack raises to 1.5 times but HP decreases by 1/8th the maximum HP every turn.'
+)
+
+torrent = Ability.create!(
+    id: 'Torrent', 
+    description: 'Torrent', 
+    effect: 'HP is below 1/3rd its maximum, power of Water-type moves is increased by 50%.'
+)
+
+rain_dish = Ability.create!(
+    id: 'RainDish', 
+    description: 'Rain Dish', 
+    effect: 'If Heavy Rain weather is in effect, recovers 1/16th max Hit Points at the end of the turn.'
+)
+
+# Moves -----------------------------------------------------------------------------------------------------
+
+accelerock = Move.create!(
+    id: 'Accelerock',
+    description: 'Accelerock',
+    type: rock,
+    category: physical,
+    power_points: 20,
+    base_power: 40,
+    accuracy: 100,
+    battle_effect: 'The user smashes into the target at high speed. This move always goes first.',
+    secondary_effect: 'Has increased Speed Priority',
+    speed_priority: 1,
+    physical_contact: true
+)
+
+# Pokémon ---------------------------------------------------------------------------------------------------
+
+bulbasaur = Pokemon.create!(
     id: 1, 
     name: 'Bulbasaur', 
     classification: 'Seed Pokémon',
@@ -51,17 +115,180 @@ bulbasaur = Pokemon.create(
     hidden_ability: chlorophyll
 )
 
-# Moves
-accelerock = Move.create(
-    id: 'Accelerock',
-    description: 'Accelerock',
-    type: rock,
-    category: physical,
-    power_points: 20,
-    base_power: 40,
-    accuracy: 100,
-    battle_effect: 'The user smashes into the target at high speed. This move always goes first.',
-    secondary_effect: 'Has increased Speed Priority',
-    speed_priority: 1,
-    physical_contact: true
+ivysaur = Pokemon.create!(
+    id: 2, 
+    name: 'Ivysaur', 
+    classification: 'Seed Pokémon',
+    height: 1.0,
+    weight: 13.0,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 60,
+    attack: 62,
+    defense: 63,
+    sp_attack: 80,
+    sp_defense: 80,
+    speed: 60,
+    type_1: grass,
+    type_2: poison,
+    ability_1: overgrow,
+    hidden_ability: chlorophyll
+)
+
+venusaur = Pokemon.create!(
+    id: 3, 
+    name: 'Venusaur', 
+    classification: 'Seed Pokémon',
+    height: 2.0,
+    weight: 100.0,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 80,
+    attack: 82,
+    defense: 83,
+    sp_attack: 100,
+    sp_defense: 100,
+    speed: 80,
+    type_1: grass,
+    type_2: poison,
+    ability_1: overgrow,
+    hidden_ability: chlorophyll
+)
+
+charmander = Pokemon.create!(
+    id: 4, 
+    name: 'Charmander', 
+    classification: 'Lizard Pokémon',
+    height: 0.6,
+    weight: 8.5,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 39,
+    attack: 52,
+    defense: 43,
+    sp_attack: 60,
+    sp_defense: 50,
+    speed: 65,
+    type_1: fire,
+    ability_1: blaze,
+    hidden_ability: solar_power
+)
+
+charmeleon = Pokemon.create!(
+    id: 5, 
+    name: 'Charmeleon', 
+    classification: 'Flame Pokémon',
+    height: 1.1,
+    weight: 19.0,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 58,
+    attack: 64,
+    defense: 58,
+    sp_attack: 80,
+    sp_defense: 65,
+    speed: 80,
+    type_1: fire,
+    ability_1: blaze,
+    hidden_ability: solar_power
+)
+
+charizard = Pokemon.create!(
+    id: 6, 
+    name: 'Charizard', 
+    classification: 'Flame Pokémon',
+    height: 1.7,
+    weight: 90.5,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 78,
+    attack: 84,
+    defense: 78,
+    sp_attack: 109,
+    sp_defense: 85,
+    speed: 100,
+    type_1: fire,
+    ability_1: blaze,
+    hidden_ability: solar_power
+)
+
+squirtle = Pokemon.create!(
+    id: 7, 
+    name: 'Squirtle', 
+    classification: 'Tiny Turtle Pokémon',
+    height: 0.5,
+    weight: 9.0,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 44,
+    attack: 48,
+    defense: 65,
+    sp_attack: 50,
+    sp_defense: 64,
+    speed: 43,
+    type_1: water,
+    ability_1: torrent,
+    hidden_ability: rain_dish
+)
+
+wartortle = Pokemon.create!(
+    id: 8, 
+    name: 'Wartortle', 
+    classification: 'Turtle Pokémon',
+    height: 1.0,
+    weight: 22.5,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 59,
+    attack: 63,
+    defense: 80,
+    sp_attack: 65,
+    sp_defense: 80,
+    speed: 58,
+    type_1: water,
+    ability_1: torrent,
+    hidden_ability: rain_dish
+)
+
+blastoise = Pokemon.create!(
+    id: 9, 
+    name: 'Blastoise', 
+    classification: 'Shellfish Pokémon',
+    height: 1.6,
+    weight: 85.5,
+    capture_rate: 45,
+    base_egg_steps: 5120,
+    male_gender_ratio: 87.5,
+    experience_growth: 1059860,
+    base_happiness: 70,
+    hp: 79,
+    attack: 83,
+    defense: 100,
+    sp_attack: 85,
+    sp_defense: 105,
+    speed: 78,
+    type_1: water,
+    ability_1: torrent,
+    hidden_ability: rain_dish
 )
