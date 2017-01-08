@@ -36,7 +36,6 @@ ActiveRecord::Schema.define(version: 20170108155350) do
     t.index ["ability_1_id"], name: "index_alola_forms_on_ability_1_id", using: :btree
     t.index ["ability_2_id"], name: "index_alola_forms_on_ability_2_id", using: :btree
     t.index ["hidden_ability_id"], name: "index_alola_forms_on_hidden_ability_id", using: :btree
-    t.index ["pokemon_id"], name: "index_alola_forms_on_pokemon_id", using: :btree
     t.index ["type_1_id"], name: "index_alola_forms_on_type_1_id", using: :btree
     t.index ["type_2_id"], name: "index_alola_forms_on_type_2_id", using: :btree
   end

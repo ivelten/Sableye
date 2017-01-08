@@ -1,7 +1,7 @@
 class CreateAlolaForms < ActiveRecord::Migration[5.0]
   def change
     create_table :alola_forms, id: false do |t|
-      t.belongs_to :pokemon, primary_key: true
+      t.integer :pokemon_id, primary_key: true
       t.decimal :height, null: false
       t.decimal :weight, null: false
       t.string :type_1_id, null: false, index: true
