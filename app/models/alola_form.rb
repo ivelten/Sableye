@@ -1,0 +1,2 @@
+class AlolaForm < ApplicationRecord
+end
