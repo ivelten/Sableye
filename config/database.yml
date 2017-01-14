@@ -3,10 +3,8 @@ development:
   url: <%= ENV['DATABASE_URL'] %>
 
 test:
-  adapter: sqlite3
-  pool: 5
-  timeout: 5000
-  database: db/test.sqlite3
+  adapter: postgresql
+  url: <%= ENV['TEST_DATABASE_URL'] %>
 
 production:
   adapter: postgresql
