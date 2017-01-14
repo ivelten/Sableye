@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :type do
-    id "MyString"
+    sequence(:name) { |n| "Type#{n}" }
   end
 end
