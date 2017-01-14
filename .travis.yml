@@ -3,11 +3,12 @@ language: ruby
 rvm:
     - 2.3.0
 
-services:
-    - postgresql
+env:
+    - DB=postgresql
 
 script:
     - RAILS_ENV=test bundle exec rake db:migrate
+    - bundle exec rspec spec/
 
 before_script:
     - psql -c 'create database travis;' -U postgres
