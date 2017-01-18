@@ -25,5 +25,3 @@ Things you may want to cover:
 
 * ...
 
-testando essasas
-testando de novo
