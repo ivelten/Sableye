@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get '/types' => 'types#index'
+  resources :types
+  resources :moves
 end
