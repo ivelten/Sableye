@@ -114,6 +114,7 @@ acid = Move.create!(
     accuracy: 100,
     battle_effect: "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
     secondary_effect: "May lower opponent's Special Defense one stage. 10% effect rate.",
+    secondary_effect_rate: "10%",
     speed_priority: 0,    
 )
 
@@ -142,7 +143,8 @@ acid_spray = Move.create!(
     base_power: 40,
     accuracy: 100,
     battle_effect: "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat.",
-    secondary_effect: "Lowers opponent's Special Defense two stages. 100% effect rate.",
+    secondary_effect: "Lowers opponent's Special Defense two stages.",
+    secondary_effect_rate: "100%",
     speed_priority: 0,
 )
 
@@ -256,7 +258,8 @@ air_slash = Move.create!(
     base_power: 75,
     accuracy: 95,
     battle_effect: "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
-    secondary_effect: "May cause opponent to flinch. 30% effect rate.",
+    secondary_effect: "May cause opponent to flinch.",
+    secondary_effect_rate: "30%",
     speed_priority: 0,
     hits_opposite_side_in_triples: true,              
 )
@@ -314,7 +317,8 @@ ancient_power = Move.create!(
     base_power: 60,
     accuracy: 100,
     battle_effect: "The user attacks with a prehistoric power. This may also raise all the user's stats at once.",
-    secondary_effect: "May raise all user's stats one stage. 10% effect rate.",
+    secondary_effect: "May raise all user's stats one stage.",
+    secondary_effect_rate: "10%",
     speed_priority: 0, 
 )
 
@@ -448,7 +452,8 @@ antonish = Move.create!(
     base_power: 30,
     accuracy: 100,
     battle_effect: "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
-    secondary_effect:"May cause opponent to flinch. 30% flinch rate.",
+    secondary_effect:"May cause opponent to flinch.",
+    secondary_effect_rate: "30%",
     speed_priority: 0,
     physical_contact: true,   
 )
@@ -504,7 +509,8 @@ aurora_beam = Move.create!(
     base_power: 65,
     accuracy: 100,
     battle_effect: "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
-    secondary_effect:"May lower opponent's Attack one stage. 10% effect rate.",
+    secondary_effect:"May lower opponent's Attack one stage.",
+    secondary_effect_rate: "10%",
     speed_priority: 0,     
 )
 
