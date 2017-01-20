@@ -85,7 +85,7 @@ absorb = Move.create!(
     power_points: 25,
     base_power: 20,
     accuracy: 100,
-    battle_effect: 'A nutrient-draining attack. The users HP is restored by half the damage taken by the target.Secondary Effect:',
+    battle_effect: 'A nutrient-draining attack. The users HP is restored by half the damage taken by the target.',
     secondary_effect: 'User recovers half the damage inflicted.',
     speed_priority: 1,       
 )
@@ -113,7 +113,7 @@ acid = Move.create!(
     base_power: 40,
     accuracy: 100,
     battle_effect: "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
-    secondary_effect: "May lower opponent's Special Defense one stage.",
+    secondary_effect: "May lower opponent's Special Defense one stage. 10% effect rate.",
     speed_priority: 0,    
 )
 
@@ -142,7 +142,7 @@ acid_spray = Move.create!(
     base_power: 40,
     accuracy: 100,
     battle_effect: "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat.",
-    secondary_effect: "Lowers opponent's Special Defense two stages.",
+    secondary_effect: "Lowers opponent's Special Defense two stages.100% effect rate.",
     speed_priority: 0,
 )
 
@@ -256,7 +256,7 @@ air_slash = Move.create!(
     base_power: 75,
     accuracy: 95,
     battle_effect: "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
-    secondary_effect: "May cause opponent to flinch.",
+    secondary_effect: "May cause opponent to flinch. 30% effect rate.",
     speed_priority: 0,
     hits_opposite_side_in_triples: true,              
 )
@@ -270,7 +270,7 @@ ally_switch = Move.create!(
     base_power: 0,
     accuracy: 0,
     battle_effect: "The user teleports using a strange power and switches places with one of its allies.",
-    secondary_effect: "HSwitches place with other Pokémon on field.",
+    secondary_effect: "Switches place with other Pokémon on field.",
     speed_priority: 2,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,                  
@@ -301,7 +301,7 @@ anchor_shot = Move.create!(
     base_power: 80,
     accuracy: 100,
     battle_effect: "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
-    secondary_effect: "Prevents opponent from switching	",
+    secondary_effect: "Prevents opponent from switching.",
     speed_priority: 0,
 )     
 
@@ -327,7 +327,7 @@ aqua_jet = Move.create!(
     base_power: 40,
     accuracy: 100,
     battle_effect: "The user lunges at the target at a speed that makes it almost invisible. This move always goes first.",
-    secondary_effect: "Has increased Speed Priority",
+    secondary_effect: "Has increased Speed Priority.",
     speed_priority: 1,
     physical_contact: true, 
 )
