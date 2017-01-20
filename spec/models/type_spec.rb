@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Type, type: :model do
-  it "is valid with valid atributes" do
+  it "is valid with valid attributes" do
     pokemon_type = build(:type)
     expect(pokemon_type).to be_valid
   end
