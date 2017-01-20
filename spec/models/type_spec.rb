@@ -6,9 +6,13 @@ RSpec.describe Type, type: :model do
     expect(pokemon_type).to be_valid
   end
 
+  it "must have a name" do
+    pokemon_type = build(:type, name: "")
+    expect(pokemon_type).to be_invalid
+  end
+
   it "must have unique name" do
     pokemon_type = create(:type)
-    expect(pokemon_type).to be_valid
 
     pokemon_type_invalid = build(:type, name: pokemon_type.name)
     expect(pokemon_type_invalid).to be_invalid
