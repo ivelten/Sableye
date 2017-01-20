@@ -10,6 +10,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'activemodel-serializers-xml'
 gem 'xml-simple'
+gem 'rubocop', '~> 0.47.1', require => false
 
 group :development, :test do
   gem 'byebug', platform: :mri
