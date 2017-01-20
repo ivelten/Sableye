@@ -142,7 +142,7 @@ acid_spray = Move.create!(
     base_power: 40,
     accuracy: 100,
     battle_effect: "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat.",
-    secondary_effect: "Lowers opponent's Special Defense two stages.100% effect rate.",
+    secondary_effect: "Lowers opponent's Special Defense two stages. 100% effect rate.",
     speed_priority: 0,
 )
 
