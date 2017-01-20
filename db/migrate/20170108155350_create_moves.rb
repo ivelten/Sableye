@@ -10,7 +10,7 @@ class CreateMoves < ActiveRecord::Migration[5.0]
       t.integer :accuracy, null: false
       t.string :battle_effect, null: false
       t.string :secondary_effect
-      t.integer :secondary_effect_rate
+      t.integer :secondary_effect_rate, null: false, default: 0
       t.integer :speed_priority, null: false, default: 0
       t.boolean :physical_contact, null: false, default: false
       t.boolean :sound, null: false, default: false
