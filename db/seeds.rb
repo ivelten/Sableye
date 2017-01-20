@@ -87,8 +87,7 @@ absorb = Move.create!(
     accuracy: 100,
     battle_effect: 'A nutrient-draining attack. The users HP is restored by half the damage taken by the target.Secondary Effect:',
     secondary_effect: 'User recovers half the damage inflicted.',
-    speed_priority: 1,
-           
+    speed_priority: 1,       
 )
 
 accelerock = Move.create!(
@@ -115,8 +114,7 @@ acid = Move.create!(
     accuracy: 100,
     battle_effect: "The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
     secondary_effect: "May lower opponent's Special Defense one stage.",
-    speed_priority: 0,
-       
+    speed_priority: 0,    
 )
 
 acid_armor = Move.create!(
@@ -133,7 +131,6 @@ acid_armor = Move.create!(
     snatchable: true,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,
- 
 )
 
 acid_spray = Move.create!(
@@ -147,7 +144,6 @@ acid_spray = Move.create!(
     battle_effect: "The user spits fluid that works to melt the target. This harshly lowers the target's Sp. Def stat.",
     secondary_effect: "Lowers opponent's Special Defense two stages.",
     speed_priority: 0,
-  
 )
 
 acrobatics = Move.create!(
@@ -163,7 +159,6 @@ acrobatics = Move.create!(
     speed_priority: 0,
     physical_contact: true,
     hits_opposite_side_in_triples: true,
-    
 )
 
 acupressure = Move.create!(
@@ -179,7 +174,6 @@ acupressure = Move.create!(
     speed_priority: 0,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false
-  
 )
 
 aerial_ace = Move.create!(
@@ -194,8 +188,7 @@ aerial_ace = Move.create!(
     secondary_effect: "Cannot miss.",
     speed_priority: 0,
     physical_contact: true,
-    hits_opposite_side_in_triples: true,
-      
+    hits_opposite_side_in_triples: true,   
 )
 
 aeroblast = Move.create!(
@@ -209,8 +202,7 @@ aeroblast = Move.create!(
     battle_effect: "A vortex of air is shot at the target to inflict damage. Critical hits land more easily.",
     secondary_effect: "Has an increased Critical Hit ratio",
     speed_priority: 0,
-    hits_opposite_side_in_triples: true,
-          
+    hits_opposite_side_in_triples: true,       
 )
 
 after_you = Move.create!(
@@ -223,8 +215,7 @@ after_you = Move.create!(
     accuracy: 0,
     battle_effect: "The user helps the target and makes it use its move right after the user.",
     secondary_effect: "Target moves immediately after the user.",
-    speed_priority: 0,
-             
+    speed_priority: 0,         
 )
 
 agility = Move.create!(
@@ -240,8 +231,7 @@ agility = Move.create!(
     speed_priority: 0,
     snatchable: true,
     blocked_by_protect_and_detect: false,
-    copyable_by_mirror_move: false,
-                     
+    copyable_by_mirror_move: false,                    
 )
 
 air_cutter = Move.create!(
@@ -254,9 +244,7 @@ air_cutter = Move.create!(
     accuracy: 95,
     battle_effect: "The user launches razor-like wind to slash the opposing Pokémon. Critical hits land more easily.",
     secondary_effect: "Has an increased Critical Hit ratio.",
-    speed_priority: 0,
-    
-                 
+    speed_priority: 0,              
 )
 
 air_slash = Move.create!(
@@ -270,8 +258,7 @@ air_slash = Move.create!(
     battle_effect: "The user attacks with a blade of air that slices even the sky. This may also make the target flinch.",
     secondary_effect: "May cause opponent to flinch.",
     speed_priority: 0,
-    hits_opposite_side_in_triples: true,
-                 
+    hits_opposite_side_in_triples: true,              
 )
 
 ally_switch = Move.create!(
@@ -286,8 +273,7 @@ ally_switch = Move.create!(
     secondary_effect: "HSwitches place with other Pokémon on field.",
     speed_priority: 2,
     blocked_by_protect_and_detect: false,
-    copyable_by_mirror_move: false,
-                        
+    copyable_by_mirror_move: false,                  
 )
 
 amnesia = Move.create!(
@@ -304,7 +290,6 @@ amnesia = Move.create!(
     snatchable: true,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,
-
 )
 
 anchor_shot = Move.create!(
@@ -318,7 +303,6 @@ anchor_shot = Move.create!(
     battle_effect: "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.",
     secondary_effect: "Prevents opponent from switching	",
     speed_priority: 0,
-    
 )     
 
 ancient_power = Move.create!(
@@ -331,8 +315,7 @@ ancient_power = Move.create!(
     accuracy: 100,
     battle_effect: "The user attacks with a prehistoric power. This may also raise all the user's stats at once.",
     secondary_effect: "May raise all user's stats one stage. 10% effect rate.",
-    speed_priority: 0,
-    
+    speed_priority: 0, 
 )
 
 aqua_jet = Move.create!(
@@ -346,8 +329,7 @@ aqua_jet = Move.create!(
     battle_effect: "The user lunges at the target at a speed that makes it almost invisible. This move always goes first.",
     secondary_effect: "Has increased Speed Priority",
     speed_priority: 1,
-    physical_contact: true,
-    
+    physical_contact: true, 
 )
 
 aqua_ring = Move.create!(
@@ -364,8 +346,7 @@ aqua_ring = Move.create!(
     physical_contact: true,
     snatchable: true,
     blocked_by_protect_and_detect: false,
-    copyable_by_mirror_move: false,
-    
+    copyable_by_mirror_move: false, 
 )
 
 aqua_tail = Move.create!(
@@ -379,8 +360,7 @@ aqua_tail = Move.create!(
     battle_effect: "The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",
     secondary_effect: "No effect.",
     speed_priority: 0,
-    physical_contact: true,
-    
+    physical_contact: true,  
 )
 
 
@@ -397,8 +377,6 @@ arm_thrust = Move.create!(
     secondary_effect: "Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% chance of 3 hits. 12.5% chance of 4 hits. 12.5% chance of 5 hits",
     speed_priority: 0,
     physical_contact: true,
-
-    
 )      
 
 aromatherapy = Move.create!(
@@ -415,7 +393,6 @@ aromatherapy = Move.create!(
     snatchable: true,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,
-    
 )
 
 aromatic_mist = Move.create!(
@@ -431,7 +408,6 @@ aromatic_mist = Move.create!(
     speed_priority: 0,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,
-    
 )
 
 assist = Move.create!(
@@ -447,7 +423,6 @@ assist = Move.create!(
     speed_priority: 0,
     blocked_by_protect_and_detect: false,
     copyable_by_mirror_move: false,
-    
 )
 
 assurance = Move.create!(
@@ -461,8 +436,7 @@ assurance = Move.create!(
     battle_effect: "If the target has already taken some damage in the same turn, this attack's power is doubled.",
     secondary_effect:"Doubles damage if target has already received damage this turn.",
     speed_priority: 0,
-    physical_contact: true,
-        
+    physical_contact: true,       
 )
 
 antonish = Move.create!(
@@ -476,8 +450,7 @@ antonish = Move.create!(
     battle_effect: "The user attacks the target while shouting in a startling fashion. This may also make the target flinch.",
     secondary_effect:"May cause opponent to flinch. 30% flinch rate.",
     speed_priority: 0,
-    physical_contact: true,
-        
+    physical_contact: true,   
 )
 
 
@@ -492,8 +465,6 @@ attack_order = Move.create!(
     battle_effect: "The user calls out its underlings to pummel the target. Critical hits land more easily.",
     secondary_effect:"Has an increased Critical Hit ratio.",
     speed_priority: 0,
-    
-        
 )
 
 attract = Move.create!(
@@ -507,8 +478,7 @@ attract = Move.create!(
     battle_effect: "If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.",
     secondary_effect: "Causes the opponent to be inflicted with Infatuation.",
     speed_priority: 0,
-    reflected_by_magic_coat_and_magic_bounce: true,
-    
+    reflected_by_magic_coat_and_magic_bounce: true,   
 )
 
 aura_sphere = Move.create!(
@@ -522,8 +492,7 @@ aura_sphere = Move.create!(
     battle_effect: "The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.",
     secondary_effect:"Cannot miss.",
     speed_priority: 0,
-    hits_opposite_side_in_triples: true,
-            
+    hits_opposite_side_in_triples: true,        
 )
 
 aurora_beam = Move.create!(
@@ -536,9 +505,7 @@ aurora_beam = Move.create!(
     accuracy: 100,
     battle_effect: "The target is hit with a rainbow-colored beam. This may also lower the target's Attack stat.",
     secondary_effect:"May lower opponent's Attack one stage. 10% effect rate.",
-    speed_priority: 0,
-    
-            
+    speed_priority: 0,     
 )
 
 aurora_veil= Move.create!(
@@ -553,8 +520,7 @@ aurora_veil= Move.create!(
     secondary_effect:"Lowers damage from Physical & Special moves for 5 turns",
     speed_priority: 0,
     blocked_by_protect_and_detect: false,
-    copyable_by_mirror_move: false,
-                
+    copyable_by_mirror_move: false,          
 )
 
 automatize= Move.create!(
@@ -570,8 +536,7 @@ automatize= Move.create!(
     speed_priority: 0,
     snatchable: true,
     blocked_by_protect_and_detect: false,
-    copyable_by_mirror_move: false,
-                
+    copyable_by_mirror_move: false,         
 )
 
 avalanche = Move.create!(
@@ -585,26 +550,24 @@ avalanche = Move.create!(
     battle_effect: "The power of this attack move is doubled if the user has been hurt by the target in the same turn.",
     secondary_effect:"Power doubles if user was hit before using the Attack.",
     speed_priority: -4,
-    physical_contact: true,
-                 
+    physical_contact: true,               
 )
 
 # B letter moves --------------------------------------------------------------------------------------------
 
-# baby_doll_eyes = Move.create!(
-#     name: 'baby_doll_eyes',
-#     description: 'Baby-Doll Eyes',
-#     type: fairy,
-#     category: other,
-#     power_points: 30,
-#     base_power: 0,
-#     accuracy: 100,
-#     battle_effect: "The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.",
-#     secondary_effect:"Lowers opponent's Attack stat one stage.",
-#     speed_priority: 1,
-#     reflected_by_magic_coat_and_magic_bounce: true,
-                 
-# )
+baby_doll_eyes = Move.create!(
+    name: 'baby_doll_eyes',
+    description: 'Baby-Doll Eyes',
+    type: fairy,
+    category: other,
+    power_points: 30,
+    base_power: 0,
+    accuracy: 100,
+    battle_effect: "The user stares at the target with its baby-doll eyes, which lowers its Attack stat. This move always goes first.",
+    secondary_effect:"Lowers opponent's Attack stat one stage.",
+    speed_priority: 1,
+    reflected_by_magic_coat_and_magic_bounce: true,            
+)
 
 # Pokémon ---------------------------------------------------------------------------------------------------
 
