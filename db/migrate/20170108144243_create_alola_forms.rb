@@ -8,7 +8,7 @@ class CreateAlolaForms < ActiveRecord::Migration[5.0]
       t.integer :type_2_id, index: true
       t.integer :ability_1_id, null: false, index: true
       t.integer :ability_2_id, index: true
-      t.integer :hidden_ability_id, null:false, index: true
+      t.integer :hidden_ability_id, null: false, index: true
       t.integer :attack, null: false
       t.integer :defense, null: false
       t.integer :sp_attack, null: false
