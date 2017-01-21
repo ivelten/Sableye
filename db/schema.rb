@@ -58,7 +58,7 @@ ActiveRecord::Schema.define(version: 20170108155350) do
     t.integer "accuracy",                                                 null: false
     t.string  "battle_effect",                                            null: false
     t.string  "secondary_effect"
-    t.integer "secondary_effect_rate"
+    t.integer "secondary_effect_rate",                    default: 0,     null: false
     t.integer "speed_priority",                           default: 0,     null: false
     t.boolean "physical_contact",                         default: false, null: false
     t.boolean "sound",                                    default: false, null: false
