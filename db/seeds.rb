@@ -768,29 +768,6 @@ wartortle = Pokemon.create!(
 )
 
 blastoise = Pokemon.create!(
-<<<<<<< HEAD
-    id: 9, 
-    name: 'Blastoise', 
-    classification: 'Shellfish',
-    height: 1.6,
-    weight: 85.5,
-    capture_rate: 45,
-    base_egg_steps: 5120,
-    male_gender_ratio: 87.5,
-    experience_growth: 1059860,
-    base_happiness: 70,
-    hp: 79,
-    attack: 83,
-    defense: 100,
-    sp_attack: 85,
-    sp_defense: 105,
-    speed: 78,
-    type_1: water,
-    ability_1: torrent,
-    hidden_ability: rain_dish
-)
-
-=======
   id: 9,
   name: 'Blastoise',
   classification: 'Shellfish',
@@ -811,4 +788,3 @@ blastoise = Pokemon.create!(
   ability_1: torrent,
   hidden_ability: rain_dish
 )
->>>>>>> f6e46553ac8f6820169f19f938c732b60612db03
