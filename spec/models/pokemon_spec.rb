@@ -39,7 +39,7 @@ RSpec.describe Pokemon, type: :model do
 
     pokemon = build(:pokemon, height: 1)
     expect(pokemon).to be_valid
-    
+
     pokemon = build(:pokemon, height: 1.1)
     expect(pokemon).to be_valid
   end
@@ -50,7 +50,7 @@ RSpec.describe Pokemon, type: :model do
 
     pokemon = build(:pokemon, weight: 1)
     expect(pokemon).to be_valid
-    
+
     pokemon = build(:pokemon, weight: 1.1)
     expect(pokemon).to be_valid
   end
@@ -83,7 +83,7 @@ RSpec.describe Pokemon, type: :model do
 
     pokemon = build(:pokemon, male_gender_ratio: 1)
     expect(pokemon).to be_valid
-    
+
     pokemon = build(:pokemon, male_gender_ratio: 1.1)
     expect(pokemon).to be_valid
   end
