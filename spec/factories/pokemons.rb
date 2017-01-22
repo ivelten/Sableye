@@ -1,8 +1,8 @@
 FactoryGirl.define do
   factory :pokemon do
-    add_attribute(:id) { 1 }
-    add_attribute(:name) { "Bulbasaur Pokemon Test" }
-    classification "Bulbasaur Test"
+    sequence(:id) { |n| n }
+    sequence(:name) { |n| "pokemon_#{n}_test" }
+    sequence(:classification) { |n| "Pokemon #{n} Test" }
     height 13
     weight 13
     capture_rate 10
