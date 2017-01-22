@@ -47,33 +47,6 @@ ActiveRecord::Schema.define(version: 20_170_108_155_350) do
     t.string 'description', null: false
   end
 
-<<<<<<< HEAD
-  create_table "moves", force: :cascade do |t|
-    t.string  "name",                                                     null: false
-    t.string  "description",                                              null: false
-    t.integer "type_id",                                                  null: false
-    t.integer "category_id",                                              null: false
-    t.integer "power_points",                                             null: false
-    t.integer "base_power",                                               null: false
-    t.integer "accuracy",                                                 null: false
-    t.string  "battle_effect",                                            null: false
-    t.string  "secondary_effect"
-    t.integer "secondary_effect_rate",                    default: 0,     null: false
-    t.integer "speed_priority",                           default: 0,     null: false
-    t.boolean "physical_contact",                         default: false, null: false
-    t.boolean "sound",                                    default: false, null: false
-    t.boolean "punch",                                    default: false, null: false
-    t.boolean "snatchable",                               default: false, null: false
-    t.boolean "defrosts",                                 default: false, null: false
-    t.boolean "hits_opposite_side_in_triples",            default: false, null: false
-    t.boolean "reflected_by_magic_coat_and_magic_bounce", default: false, null: false
-    t.boolean "blocked_by_protect_and_detect",            default: true,  null: false
-    t.boolean "copyable_by_mirror_move",                  default: true,  null: false
-    t.index ["category_id"], name: "index_moves_on_category_id", using: :btree
-    t.index ["description"], name: "index_moves_on_description", using: :btree
-    t.index ["name"], name: "index_moves_on_name", using: :btree
-    t.index ["type_id"], name: "index_moves_on_type_id", using: :btree
-=======
   create_table 'moves', force: :cascade do |t|
     t.string  'name',                                                     null: false
     t.string  'description',                                              null: false
@@ -99,7 +72,6 @@ ActiveRecord::Schema.define(version: 20_170_108_155_350) do
     t.index ['description'], name: 'index_moves_on_description', using: :btree
     t.index ['name'], name: 'index_moves_on_name', using: :btree
     t.index ['type_id'], name: 'index_moves_on_type_id', using: :btree
->>>>>>> f6e46553ac8f6820169f19f938c732b60612db03
   end
 
   create_table 'pokemons', id: :integer, force: :cascade do |t|
