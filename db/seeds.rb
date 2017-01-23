@@ -2,14 +2,14 @@
 # files must be inside RAILS_ROOT/db/seeds/ folder
 # they will be loaded in the order they are inside the array
 seed_files = \
-[
-  'types.rb',
-  'move_categories.rb',
-  'a_moves.rb',
-  'b_moves.rb',
-  'abilities.rb',
-  '001_020_pokemons.rb'
-]
+  [
+    'types.rb',
+    'move_categories.rb',
+    'a_moves.rb',
+    'b_moves.rb',
+    'abilities.rb',
+    '001_020_pokemons.rb'
+  ]
 
 seed_files.each do |file|
   absolute_filename = File.join(Rails.root, 'db', 'seeds', file)

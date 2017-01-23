@@ -3,8 +3,8 @@ puts "Loading #{__FILE__}"
 Move.create!(
   name: 'baby_doll_eyes',
   description: 'Baby-Doll Eyes',
-  type: Type.find_by_name('Fairy'),
-  category: MoveCategory.find_by_name('Other'),
+  type: Type.find_by(name: 'Fairy'),
+  category: MoveCategory.find_by(name: 'Other'),
   power_points: 30,
   base_power: 0,
   accuracy: 100,
