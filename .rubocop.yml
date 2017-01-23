@@ -11,3 +11,4 @@ AllCops:
     - 'spec/spec_helper.rb'
     - 'test/test_helper.rb'
     - 'bin/spring'
+    - 'vendor/**/*'
