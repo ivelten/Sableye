@@ -1,5 +1,3 @@
-puts "Loading #{__FILE__}"
-
 Move.create!(
   name: 'absorb',
   description: 'Absorb',

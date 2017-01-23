@@ -1,5 +1,3 @@
-puts "Loading #{__FILE__}"
-
 Pokemon.create!(
   id: 1,
   name: 'Bulbasaur',
