@@ -4,10 +4,6 @@ Metrics/LineLength:
 Style/Documentation:
   Enabled: false
 
-Metrics/BlockLength:
-  ExcludedMethods:
-    - 'describe'
-
 AllCops:
   Exclude:
     - 'db/schema.rb'
