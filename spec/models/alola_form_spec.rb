@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe AlolaForm, type: :model do
-  it "must be valid with valid attributes" do
+  it 'must be valid with valid attributes' do
     alola_form = build(:alola_form)
     expect(alola_form).to be_valid
   end
