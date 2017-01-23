@@ -1,5 +1,3 @@
-puts "Loading #{__FILE__}"
-
 Move.create!(
   name: 'absorb',
   description: 'Absorb',
@@ -35,7 +33,8 @@ Move.create!(
   power_points: 30,
   base_power: 40,
   accuracy: 100,
-  battle_effect: 'The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.',
+  battle_effect: 'The opposing Pokémon are attacked with a spray of harsh acid. ' \
+                 'This may also lower their Sp. Def stat.',
   secondary_effect: "May lower opponent's Special Defense one stage. 10% effect rate.",
   secondary_effect_rate: 10,
   speed_priority: 0
@@ -79,7 +78,8 @@ Move.create!(
   power_points: 15,
   base_power: 55,
   accuracy: 100,
-  battle_effect: 'The user nimbly strikes the target. If the user is not holding an item, this attack inflicts massive damage.',
+  battle_effect: 'The user nimbly strikes the target. If the user is not holding an item, ' \
+                 'this attack inflicts massive damage.',
   secondary_effect: 'Increases damage by 100% if user is not holding an item.',
   speed_priority: 0,
   physical_contact: true,
@@ -210,7 +210,8 @@ Move.create!(
   power_points: 20,
   base_power: 0,
   accuracy: 0,
-  battle_effect: "The user temporarily empties its mind to forget its concerns. This sharply raises the user's Sp. Def stat.",
+  battle_effect: 'The user temporarily empties its mind to forget its concerns. ' \
+                 'This sharply raises the user\'s Sp. Def stat.',
   secondary_effect: "Raises user's Special Defense two stages.",
   speed_priority: 0,
   snatchable: true,
@@ -226,7 +227,8 @@ Move.create!(
   power_points: 20,
   base_power: 80,
   accuracy: 100,
-  battle_effect: 'The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.',
+  battle_effect: 'The user entangles the target with its anchor chain while attacking. ' \
+                 'The target becomes unable to flee.',
   secondary_effect: 'Prevents opponent from switching.',
   speed_priority: 0
 )
@@ -253,7 +255,8 @@ Move.create!(
   power_points: 20,
   base_power: 40,
   accuracy: 100,
-  battle_effect: 'The user lunges at the target at a speed that makes it almost invisible. This move always goes first.',
+  battle_effect: 'The user lunges at the target at a speed that makes it almost invisible. ' \
+                 'This move always goes first.',
   secondary_effect: 'Has increased Speed Priority.',
   speed_priority: 1,
   physical_contact: true
@@ -299,7 +302,8 @@ Move.create!(
   base_power: 15,
   accuracy: 100,
   battle_effect: 'The user lets loose a flurry of open-palmed arm thrusts that hit two to five times in a row.',
-  secondary_effect: 'Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% chance of 3 hits. 12.5% chance of 4 hits. 12.5% chance of 5 hits',
+  secondary_effect: 'Attacks 2-5 times in a row. 37.5% chance of 2 hits. 37.5% chance of 3 hits. ' \
+                    '12.5% chance of 4 hits. 12.5% chance of 5 hits',
   speed_priority: 0,
   physical_contact: true
 )
@@ -344,7 +348,11 @@ Move.create!(
   base_power: 0,
   accuracy: 0,
   battle_effect: 'The user hurriedly and randomly uses a move among those known by ally Pokémon.',
-  secondary_effect: 'This move selects and uses a random move known by a Pokémon within your party. However, it cannot use the moves; Assist, Chatter, Circle Throw, Copycat, Counter, Covet, Destiny Bond, Detect, Dragon Tail, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Protect, Quick Guard, Sketch, Sleep Talk, Snatch, Struggle, Switcheroo, Thief, Trick, or Wide Guard.',
+  secondary_effect: 'This move selects and uses a random move known by a Pokémon within your party. ' \
+                    'However, it cannot use the moves; Assist, Chatter, Circle Throw, Copycat, Counter, Covet, ' \
+                    'Destiny Bond, Detect, Dragon Tail, Endure, Feint, Focus Punch, Follow Me, Helping Hand, ' \
+                    'Me First, Metronome, Mimic, Mirror Coat, Mirror Move, Protect, Quick Guard, Sketch, Sleep ' \
+                    'Talk, Snatch, Struggle, Switcheroo, Thief, Trick, or Wide Guard.',
   speed_priority: 0,
   blocked_by_protect_and_detect: false,
   copyable_by_mirror_move: false
@@ -372,7 +380,8 @@ Move.create!(
   power_points: 15,
   base_power: 30,
   accuracy: 100,
-  battle_effect: 'The user attacks the target while shouting in a startling fashion. This may also make the target flinch.',
+  battle_effect: 'The user attacks the target while shouting in a startling fashion. ' \
+                 'This may also make the target flinch.',
   secondary_effect: 'May cause opponent to flinch.',
   secondary_effect_rate: 30,
   speed_priority: 0,
@@ -414,7 +423,8 @@ Move.create!(
   power_points: 20,
   base_power: 80,
   accuracy: 0,
-  battle_effect: 'The user lets loose a blast of aura power from deep within its body at the target. This attack never misses.',
+  battle_effect: 'The user lets loose a blast of aura power from deep within its body at the target. ' \
+                 'This attack never misses.',
   secondary_effect: 'Cannot miss.',
   speed_priority: 0,
   hits_opposite_side_in_triples: true
@@ -442,7 +452,8 @@ Move.create!(
   power_points: 20,
   base_power: 0,
   accuracy: 0,
-  battle_effect: 'This move reduces damage from physical and special moves for five turns. This can be used only in a hailstorm.',
+  battle_effect: 'This move reduces damage from physical and special moves for five turns. ' \
+                 'This can be used only in a hailstorm.',
   secondary_effect: 'Lowers damage from Physical & Special moves for 5 turns',
   speed_priority: 0,
   blocked_by_protect_and_detect: false,
