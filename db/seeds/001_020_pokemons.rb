@@ -15,9 +15,9 @@ Pokemon.create!(
   sp_attack: 65,
   sp_defense: 65,
   speed: 45,
-  type_1: Type.find_by_name('Grass')
-  type_2: Type.find_by_name('Poison')
-  ability_1: Ability.find_by_name('overgrow')
+  type_1: Type.find_by_name('Grass'),
+  type_2: Type.find_by_name('Poison'),
+  ability_1: Ability.find_by_name('overgrow'),
   hidden_ability: Ability.find_by_name('chlorophyll')
 )
 
@@ -38,9 +38,9 @@ Pokemon.create!(
   sp_attack: 80,
   sp_defense: 80,
   speed: 60,
-  type_1: Type.find_by_name('Grass')
-  type_2: Type.find_by_name('Poison')
-  ability_1: Ability.find_by_name('overgrow')
+  type_1: Type.find_by_name('Grass'),
+  type_2: Type.find_by_name('Poison'),
+  ability_1: Ability.find_by_name('overgrow'),
   hidden_ability: Ability.find_by_name('chlorophyll')
 )
 
@@ -61,9 +61,9 @@ Pokemon.create!(
   sp_attack: 100,
   sp_defense: 100,
   speed: 80,
-  type_1: Type.find_by_name('Grass')
-  type_2: Type.find_by_name('Poison')
-  ability_1: Ability.find_by_name('overgrow')
+  type_1: Type.find_by_name('Grass'),
+  type_2: Type.find_by_name('Poison'),
+  ability_1: Ability.find_by_name('overgrow'),
   hidden_ability: Ability.find_by_name('chlorophyll')
 )
 
@@ -84,8 +84,8 @@ Pokemon.create!(
   sp_attack: 60,
   sp_defense: 50,
   speed: 65,
-  type_1: Type.find_by_name('Fire')
-  ability_1: Ability.find_by_name('blaze')
+  type_1: Type.find_by_name('Fire'),
+  ability_1: Ability.find_by_name('blaze'),
   hidden_ability: Ability.find_by_name('solar_power')
 )
 
@@ -106,8 +106,8 @@ Pokemon.create!(
   sp_attack: 80,
   sp_defense: 65,
   speed: 80,
-  type_1: Type.find_by_name('Fire')
-  ability_1: Ability.find_by_name('blaze')
+  type_1: Type.find_by_name('Fire'),
+  ability_1: Ability.find_by_name('blaze'),
   hidden_ability: Ability.find_by_name('solar_power')
 )
 
@@ -128,8 +128,8 @@ Pokemon.create!(
   sp_attack: 109,
   sp_defense: 85,
   speed: 100,
-  type_1: Type.find_by_name('Fire')
-  ability_1: Ability.find_by_name('blaze')
+  type_1: Type.find_by_name('Fire'),
+  ability_1: Ability.find_by_name('blaze'),
   hidden_ability: Ability.find_by_name('solar_power')
 )
 
@@ -150,8 +150,8 @@ Pokemon.create!(
   sp_attack: 50,
   sp_defense: 64,
   speed: 43,
-  type_1: Type.find_by_name('Water')
-  ability_1: Ability.find_by_name('torrent')
+  type_1: Type.find_by_name('Water'),
+  ability_1: Ability.find_by_name('torrent'),
   hidden_ability: Ability.find_by_name('rain_dish')
 )
 
@@ -172,8 +172,8 @@ Pokemon.create!(
   sp_attack: 65,
   sp_defense: 80,
   speed: 58,
-  type_1: Type.find_by_name('Water')
-  ability_1: Ability.find_by_name('torrent')
+  type_1: Type.find_by_name('Water'),
+  ability_1: Ability.find_by_name('torrent'),
   hidden_ability: Ability.find_by_name('rain_dish')
 )
 
@@ -194,7 +194,7 @@ Pokemon.create!(
   sp_attack: 85,
   sp_defense: 105,
   speed: 78,
-  type_1: Type.find_by_name('Water')
-  ability_1: Ability.find_by_name('torrent')
+  type_1: Type.find_by_name('Water'),
+  ability_1: Ability.find_by_name('torrent'),
   hidden_ability: Ability.find_by_name('rain_dish')
 )
