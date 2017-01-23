@@ -1,3 +1,5 @@
+puts "Loading #{__FILE__}"
+
 Ability.create!(
   name: 'overgrow',
   description: 'Overgrow',

@@ -1,3 +1,5 @@
+puts "Loading #{__FILE__}"
+
 Move.create!(
   name: 'baby_doll_eyes',
   description: 'Baby-Doll Eyes',

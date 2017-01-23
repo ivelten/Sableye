@@ -1,3 +1,5 @@
+puts "Loading #{__FILE__}"
+
 Type.create!(name: 'Bug')
 Type.create!(name: 'Dark')
 Type.create!(name: 'Dragon')

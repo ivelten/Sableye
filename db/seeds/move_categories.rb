@@ -1,3 +1,5 @@
+puts "Loading #{__FILE__}"
+
 MoveCategory.create!(
   name: 'Physical',
   description: 'Physical moves cause direct damage based on move base power and pokémon Attack status.'
