@@ -46,7 +46,7 @@ Pokemon.create!(
 
 Pokemon.create!(
   id: 83,
-  name: 'Farfetch'd',
+  name: 'Farfetch\'d',
   classification: 'Wild Duck',
   height: 0.8,
   weight: 15.0,
