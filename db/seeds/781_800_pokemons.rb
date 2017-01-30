@@ -16,7 +16,7 @@ Pokemon.create!(
   speed: 40,
   type_1: Type.find_by(name: 'Ghost'),
   type_2: Type.find_by(name: 'Grass'),
-  ability_1: Ability.find_by(name: 'steelworker'),
+  ability_1: Ability.find_by(name: 'steelworker')
 )
 
 Pokemon.create!(
@@ -26,7 +26,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 29.7,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -39,7 +39,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'bulletproof'),
   ability_2: Ability.find_by(name: 'soundproof'),
-  hidden_ability: Ability.find_by(name: 'overcoat'),
+  hidden_ability: Ability.find_by(name: 'overcoat')
 )
 
 Pokemon.create!(
@@ -49,7 +49,7 @@ Pokemon.create!(
   height: 1.2,
   weight: 47.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -63,7 +63,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'bulletproof'),
   ability_2: Ability.find_by(name: 'soundproof'),
-  hidden_ability: Ability.find_by(name: 'overcoat'),
+  hidden_ability: Ability.find_by(name: 'overcoat')
 )
 
 Pokemon.create!(
@@ -73,7 +73,7 @@ Pokemon.create!(
   height: 1.6,
   weight: 78.2,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -87,7 +87,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'bulletproof'),
   ability_2: Ability.find_by(name: 'soundproof'),
-  hidden_ability: Ability.find_by(name: 'overcoat'),
+  hidden_ability: Ability.find_by(name: 'overcoat')
 )
 
 Pokemon.create!(
@@ -110,7 +110,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'electric_surge'),
   ability_2: Ability.find_by(name: 'electric_terrain'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -133,7 +133,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'psychic_surge'),
   ability_2: Ability.find_by(name: 'psychic_terrain'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -156,7 +156,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'grassy_surge'),
   ability_2: Ability.find_by(name: 'grassy_terrain'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -179,7 +179,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'misty_surge'),
   ability_2: Ability.find_by(name: 'misty_terrain'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -189,7 +189,7 @@ Pokemon.create!(
   height: 0.2,
   weight: 0.1,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 43,
@@ -199,7 +199,7 @@ Pokemon.create!(
   sp_defense: 31,
   speed: 37,
   type_1: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'unaware'),
+  ability_1: Ability.find_by(name: 'unaware')
 )
 
 Pokemon.create!(
@@ -209,7 +209,7 @@ Pokemon.create!(
   height: 0.1,
   weight: 999.9,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 43,
@@ -219,7 +219,7 @@ Pokemon.create!(
   sp_defense: 131,
   speed: 37,
   type_1: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'sturdy'),
+  ability_1: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -229,7 +229,7 @@ Pokemon.create!(
   height: 3.4,
   weight: 230.0,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 137,
@@ -240,7 +240,7 @@ Pokemon.create!(
   speed: 97,
   type_1: Type.find_by(name: 'Psychic'),
   type_2: Type.find_by(name: 'Steel'),
-  ability_1: Ability.find_by(name: 'full_metal_body'),
+  ability_1: Ability.find_by(name: 'full_metal_body')
 )
 
 Pokemon.create!(
@@ -250,7 +250,7 @@ Pokemon.create!(
   height: 4.0,
   weight: 120.0,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 137,
@@ -261,7 +261,7 @@ Pokemon.create!(
   speed: 97,
   type_1: Type.find_by(name: 'Psychic'),
   type_2: Type.find_by(name: 'Ghost'),
-  ability_1: Ability.find_by(name: 'shadow_shield'),
+  ability_1: Ability.find_by(name: 'shadow_shield')
 )
 
 Pokemon.create!(
@@ -271,7 +271,7 @@ Pokemon.create!(
   height: 1.2,
   weight: 55.5,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 109,
@@ -282,7 +282,7 @@ Pokemon.create!(
   speed: 103,
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Poison'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -292,7 +292,7 @@ Pokemon.create!(
   height: 2.4,
   weight: 333.6,
   capture_rate: 25,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 107,
@@ -303,7 +303,7 @@ Pokemon.create!(
   speed: 79,
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -313,7 +313,7 @@ Pokemon.create!(
   height: 1.8,
   weight: 25.0,
   capture_rate: 255,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 71,
@@ -324,7 +324,7 @@ Pokemon.create!(
   speed: 151,
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -334,7 +334,7 @@ Pokemon.create!(
   height: 3.8,
   weight: 100.0,
   capture_rate: 30,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 83,
@@ -344,7 +344,7 @@ Pokemon.create!(
   sp_defense: 71,
   speed: 83,
   type_1: Type.find_by(name: 'Electric'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -354,7 +354,7 @@ Pokemon.create!(
   height: 9.2,
   weight: 999.9,
   capture_rate: 25,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 97,
@@ -365,7 +365,7 @@ Pokemon.create!(
   speed: 61,
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Flying'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -375,7 +375,7 @@ Pokemon.create!(
   height: 0.3,
   weight: 0.1,
   capture_rate: 255,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 59,
@@ -386,7 +386,7 @@ Pokemon.create!(
   speed: 109,
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Steel'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -396,7 +396,7 @@ Pokemon.create!(
   height: 5.5,
   weight: 888.0,
   capture_rate: 15,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 223,
@@ -407,7 +407,7 @@ Pokemon.create!(
   speed: 43,
   type_1: Type.find_by(name: 'Dark'),
   type_2: Type.find_by(name: 'Dragon'),
-  ability_1: Ability.find_by(name: 'beast_boost'),
+  ability_1: Ability.find_by(name: 'beast_boost')
 )
 
 Pokemon.create!(
@@ -417,7 +417,7 @@ Pokemon.create!(
   height: 2.4,
   weight: 230.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 97,
@@ -427,5 +427,5 @@ Pokemon.create!(
   sp_defense: 89,
   speed: 79,
   type_1: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'prism_armor'),
+  ability_1: Ability.find_by(name: 'prism_armor')
 )

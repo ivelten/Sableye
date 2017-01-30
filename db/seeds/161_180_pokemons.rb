@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'frisk'),
+  hidden_ability: Ability.find_by(name: 'frisk')
 )
 
 Pokemon.create!(
@@ -41,7 +41,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'frisk'),
+  hidden_ability: Ability.find_by(name: 'frisk')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'insomnia'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'tinted_lens'),
+  hidden_ability: Ability.find_by(name: 'tinted_lens')
 )
 
 Pokemon.create!(
@@ -89,7 +89,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'insomnia'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'tinted_lens'),
+  hidden_ability: Ability.find_by(name: 'tinted_lens')
 )
 
 Pokemon.create!(
@@ -113,7 +113,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'rattled'),
+  hidden_ability: Ability.find_by(name: 'rattled')
 )
 
 Pokemon.create!(
@@ -137,7 +137,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'iron_fist'),
+  hidden_ability: Ability.find_by(name: 'iron_fist')
 )
 
 Pokemon.create!(
@@ -161,7 +161,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'insomnia'),
-  hidden_ability: Ability.find_by(name: 'sniper'),
+  hidden_ability: Ability.find_by(name: 'sniper')
 )
 
 Pokemon.create!(
@@ -185,7 +185,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'insomnia'),
-  hidden_ability: Ability.find_by(name: 'sniper'),
+  hidden_ability: Ability.find_by(name: 'sniper')
 )
 
 Pokemon.create!(
@@ -208,7 +208,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Poison'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'infiltrator'),
+  hidden_ability: Ability.find_by(name: 'infiltrator')
 )
 
 Pokemon.create!(
@@ -232,7 +232,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'volt_absorb'),
   ability_2: Ability.find_by(name: 'illuminate'),
-  hidden_ability: Ability.find_by(name: 'water_absorb'),
+  hidden_ability: Ability.find_by(name: 'water_absorb')
 )
 
 Pokemon.create!(
@@ -256,7 +256,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'volt_absorb'),
   ability_2: Ability.find_by(name: 'illuminate'),
-  hidden_ability: Ability.find_by(name: 'water_absorb'),
+  hidden_ability: Ability.find_by(name: 'water_absorb')
 )
 
 Pokemon.create!(
@@ -278,7 +278,7 @@ Pokemon.create!(
   speed: 60,
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'lightningrod'),
+  hidden_ability: Ability.find_by(name: 'lightningrod')
 )
 
 Pokemon.create!(
@@ -301,7 +301,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'cute_charm'),
   ability_2: Ability.find_by(name: 'magic_guard'),
-  hidden_ability: Ability.find_by(name: 'friend_guard'),
+  hidden_ability: Ability.find_by(name: 'friend_guard')
 )
 
 Pokemon.create!(
@@ -325,7 +325,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'cute_charm'),
   ability_2: Ability.find_by(name: 'competitive'),
-  hidden_ability: Ability.find_by(name: 'friend_guard'),
+  hidden_ability: Ability.find_by(name: 'friend_guard')
 )
 
 Pokemon.create!(
@@ -348,7 +348,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'hustle'),
   ability_2: Ability.find_by(name: 'serene_grace'),
-  hidden_ability: Ability.find_by(name: 'super_luck'),
+  hidden_ability: Ability.find_by(name: 'super_luck')
 )
 
 Pokemon.create!(
@@ -372,7 +372,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'hustle'),
   ability_2: Ability.find_by(name: 'serene_grace'),
-  hidden_ability: Ability.find_by(name: 'super_luck'),
+  hidden_ability: Ability.find_by(name: 'super_luck')
 )
 
 Pokemon.create!(
@@ -396,7 +396,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'magic_bounce'),
+  hidden_ability: Ability.find_by(name: 'magic_bounce')
 )
 
 Pokemon.create!(
@@ -420,7 +420,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'magic_bounce'),
+  hidden_ability: Ability.find_by(name: 'magic_bounce')
 )
 
 Pokemon.create!(
@@ -442,7 +442,7 @@ Pokemon.create!(
   speed: 35,
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'plus'),
+  hidden_ability: Ability.find_by(name: 'plus')
 )
 
 Pokemon.create!(
@@ -464,5 +464,5 @@ Pokemon.create!(
   speed: 45,
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'plus'),
+  hidden_ability: Ability.find_by(name: 'plus')
 )

@@ -16,7 +16,7 @@ Pokemon.create!(
   sp_defense: 78,
   speed: 85,
   type_1: Type.find_by(name: 'Grass'),
-  ability_1: Ability.find_by(name: 'flower_gift'),
+  ability_1: Ability.find_by(name: 'flower_gift')
 )
 
 Pokemon.create!(
@@ -39,7 +39,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'sticky_hold'),
   ability_2: Ability.find_by(name: 'storm_drain'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -63,7 +63,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sticky_hold'),
   ability_2: Ability.find_by(name: 'storm_drain'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -86,7 +86,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'technician'),
   ability_2: Ability.find_by(name: 'pickup'),
-  hidden_ability: Ability.find_by(name: 'skill_link'),
+  hidden_ability: Ability.find_by(name: 'skill_link')
 )
 
 Pokemon.create!(
@@ -110,7 +110,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'aftermath'),
   ability_2: Ability.find_by(name: 'unburden'),
-  hidden_ability: Ability.find_by(name: 'flare_boost'),
+  hidden_ability: Ability.find_by(name: 'flare_boost')
 )
 
 Pokemon.create!(
@@ -134,7 +134,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'aftermath'),
   ability_2: Ability.find_by(name: 'unburden'),
-  hidden_ability: Ability.find_by(name: 'flare_boost'),
+  hidden_ability: Ability.find_by(name: 'flare_boost')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'limber'),
+  hidden_ability: Ability.find_by(name: 'limber')
 )
 
 Pokemon.create!(
@@ -180,7 +180,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'cute_charm'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'limber'),
+  hidden_ability: Ability.find_by(name: 'limber')
 )
 
 Pokemon.create!(
@@ -201,7 +201,7 @@ Pokemon.create!(
   sp_defense: 105,
   speed: 105,
   type_1: Type.find_by(name: 'Ghost'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -225,7 +225,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'insomnia'),
   ability_2: Ability.find_by(name: 'super_luck'),
-  hidden_ability: Ability.find_by(name: 'moxie'),
+  hidden_ability: Ability.find_by(name: 'moxie')
 )
 
 Pokemon.create!(
@@ -248,7 +248,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'limber'),
   ability_2: Ability.find_by(name: 'own_tempo'),
-  hidden_ability: Ability.find_by(name: 'keen_eye'),
+  hidden_ability: Ability.find_by(name: 'keen_eye')
 )
 
 Pokemon.create!(
@@ -271,7 +271,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'thick_fat'),
   ability_2: Ability.find_by(name: 'own_tempo'),
-  hidden_ability: Ability.find_by(name: 'defiant'),
+  hidden_ability: Ability.find_by(name: 'defiant')
 )
 
 Pokemon.create!(
@@ -292,7 +292,7 @@ Pokemon.create!(
   sp_defense: 50,
   speed: 45,
   type_1: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -316,7 +316,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'stench'),
   ability_2: Ability.find_by(name: 'aftermath'),
-  hidden_ability: Ability.find_by(name: 'keen_eye'),
+  hidden_ability: Ability.find_by(name: 'keen_eye')
 )
 
 Pokemon.create!(
@@ -340,7 +340,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'stench'),
   ability_2: Ability.find_by(name: 'aftermath'),
-  hidden_ability: Ability.find_by(name: 'keen_eye'),
+  hidden_ability: Ability.find_by(name: 'keen_eye')
 )
 
 Pokemon.create!(
@@ -363,7 +363,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'levitate'),
   ability_2: Ability.find_by(name: 'heatproof'),
-  hidden_ability: Ability.find_by(name: 'heavy_metal'),
+  hidden_ability: Ability.find_by(name: 'heavy_metal')
 )
 
 Pokemon.create!(
@@ -386,7 +386,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'levitate'),
   ability_2: Ability.find_by(name: 'heatproof'),
-  hidden_ability: Ability.find_by(name: 'heavy_metal'),
+  hidden_ability: Ability.find_by(name: 'heavy_metal')
 )
 
 Pokemon.create!(
@@ -409,7 +409,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'sturdy'),
   ability_2: Ability.find_by(name: 'rock_head'),
-  hidden_ability: Ability.find_by(name: 'rattled'),
+  hidden_ability: Ability.find_by(name: 'rattled')
 )
 
 Pokemon.create!(
@@ -433,7 +433,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'soundproof'),
   ability_2: Ability.find_by(name: 'filter'),
-  hidden_ability: Ability.find_by(name: 'technician'),
+  hidden_ability: Ability.find_by(name: 'technician')
 )
 
 Pokemon.create!(
@@ -443,7 +443,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 24.4,
   capture_rate: 130,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 0,
   experience_growth: 800_000,
   base_happiness: 140,
@@ -456,5 +456,5 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'natural_cure'),
   ability_2: Ability.find_by(name: 'serene_grace'),
-  hidden_ability: Ability.find_by(name: 'friend_guard'),
+  hidden_ability: Ability.find_by(name: 'friend_guard')
 )

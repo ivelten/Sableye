@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'water_absorb'),
   ability_2: Ability.find_by(name: 'damp'),
-  hidden_ability: Ability.find_by(name: 'swift_swim'),
+  hidden_ability: Ability.find_by(name: 'swift_swim')
 )
 
 Pokemon.create!(
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'water_absorb'),
   ability_2: Ability.find_by(name: 'damp'),
-  hidden_ability: Ability.find_by(name: 'swift_swim'),
+  hidden_ability: Ability.find_by(name: 'swift_swim')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -111,7 +111,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -134,7 +134,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'no_guard'),
-  hidden_ability: Ability.find_by(name: 'steadfast'),
+  hidden_ability: Ability.find_by(name: 'steadfast')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'no_guard'),
-  hidden_ability: Ability.find_by(name: 'steadfast'),
+  hidden_ability: Ability.find_by(name: 'steadfast')
 )
 
 Pokemon.create!(
@@ -180,7 +180,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'no_guard'),
-  hidden_ability: Ability.find_by(name: 'steadfast'),
+  hidden_ability: Ability.find_by(name: 'steadfast')
 )
 
 Pokemon.create!(
@@ -203,7 +203,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
-  hidden_ability: Ability.find_by(name: 'gluttony'),
+  hidden_ability: Ability.find_by(name: 'gluttony')
 )
 
 Pokemon.create!(
@@ -226,7 +226,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
-  hidden_ability: Ability.find_by(name: 'gluttony'),
+  hidden_ability: Ability.find_by(name: 'gluttony')
 )
 
 Pokemon.create!(
@@ -249,7 +249,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
-  hidden_ability: Ability.find_by(name: 'gluttony'),
+  hidden_ability: Ability.find_by(name: 'gluttony')
 )
 
 Pokemon.create!(
@@ -273,7 +273,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'clear_body'),
   ability_2: Ability.find_by(name: 'liquid_ooze'),
-  hidden_ability: Ability.find_by(name: 'rain_dish'),
+  hidden_ability: Ability.find_by(name: 'rain_dish')
 )
 
 Pokemon.create!(
@@ -297,7 +297,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'clear_body'),
   ability_2: Ability.find_by(name: 'liquid_ooze'),
-  hidden_ability: Ability.find_by(name: 'rain_dish'),
+  hidden_ability: Ability.find_by(name: 'rain_dish')
 )
 
 Pokemon.create!(
@@ -320,7 +320,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'sturdy'),
-  hidden_ability: Ability.find_by(name: 'sand_veil'),
+  hidden_ability: Ability.find_by(name: 'sand_veil')
 )
 
 Pokemon.create!(
@@ -343,7 +343,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'sturdy'),
-  hidden_ability: Ability.find_by(name: 'sand_veil'),
+  hidden_ability: Ability.find_by(name: 'sand_veil')
 )
 
 Pokemon.create!(
@@ -366,7 +366,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'sturdy'),
-  hidden_ability: Ability.find_by(name: 'sand_veil'),
+  hidden_ability: Ability.find_by(name: 'sand_veil')
 )
 
 Pokemon.create!(
@@ -389,7 +389,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'flash_fire'),
-  hidden_ability: Ability.find_by(name: 'flame_body'),
+  hidden_ability: Ability.find_by(name: 'flame_body')
 )
 
 Pokemon.create!(
@@ -412,7 +412,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'flash_fire'),
-  hidden_ability: Ability.find_by(name: 'flame_body'),
+  hidden_ability: Ability.find_by(name: 'flame_body')
 )
 
 Pokemon.create!(
@@ -436,7 +436,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'oblivious'),
   ability_2: Ability.find_by(name: 'own_tempo'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -460,5 +460,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'oblivious'),
   ability_2: Ability.find_by(name: 'own_tempo'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )

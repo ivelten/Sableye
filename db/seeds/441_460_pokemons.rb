@@ -19,7 +19,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'tangled_feet'),
-  hidden_ability: Ability.find_by(name: 'big_pecks'),
+  hidden_ability: Ability.find_by(name: 'big_pecks')
 )
 
 Pokemon.create!(
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ghost'),
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'pressure'),
-  hidden_ability: Ability.find_by(name: 'infiltrator'),
+  hidden_ability: Ability.find_by(name: 'infiltrator')
 )
 
 Pokemon.create!(
@@ -52,7 +52,7 @@ Pokemon.create!(
   height: 0.7,
   weight: 20.5,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_veil'),
-  hidden_ability: Ability.find_by(name: 'rough_skin'),
+  hidden_ability: Ability.find_by(name: 'rough_skin')
 )
 
 Pokemon.create!(
@@ -75,7 +75,7 @@ Pokemon.create!(
   height: 1.4,
   weight: 56.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_veil'),
-  hidden_ability: Ability.find_by(name: 'rough_skin'),
+  hidden_ability: Ability.find_by(name: 'rough_skin')
 )
 
 Pokemon.create!(
@@ -98,7 +98,7 @@ Pokemon.create!(
   height: 1.9,
   weight: 95.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -111,7 +111,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_veil'),
-  hidden_ability: Ability.find_by(name: 'rough_skin'),
+  hidden_ability: Ability.find_by(name: 'rough_skin')
 )
 
 Pokemon.create!(
@@ -121,7 +121,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 105.0,
   capture_rate: 50,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 87.5,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -134,7 +134,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'thick_fat'),
-  hidden_ability: Ability.find_by(name: 'gluttony'),
+  hidden_ability: Ability.find_by(name: 'gluttony')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'steadfast'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'prankster'),
+  hidden_ability: Ability.find_by(name: 'prankster')
 )
 
 Pokemon.create!(
@@ -181,7 +181,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'steadfast'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'justified'),
+  hidden_ability: Ability.find_by(name: 'justified')
 )
 
 Pokemon.create!(
@@ -203,7 +203,7 @@ Pokemon.create!(
   speed: 32,
   type_1: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_stream'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -225,7 +225,7 @@ Pokemon.create!(
   speed: 47,
   type_1: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_stream'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -249,7 +249,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Bug'),
   ability_1: Ability.find_by(name: 'battle_armor'),
   ability_2: Ability.find_by(name: 'sniper'),
-  hidden_ability: Ability.find_by(name: 'keen_eye'),
+  hidden_ability: Ability.find_by(name: 'keen_eye')
 )
 
 Pokemon.create!(
@@ -273,7 +273,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'battle_armor'),
   ability_2: Ability.find_by(name: 'sniper'),
-  hidden_ability: Ability.find_by(name: 'keen_eye'),
+  hidden_ability: Ability.find_by(name: 'keen_eye')
 )
 
 Pokemon.create!(
@@ -297,7 +297,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'anticipation'),
   ability_2: Ability.find_by(name: 'dry_skin'),
-  hidden_ability: Ability.find_by(name: 'poison_touch'),
+  hidden_ability: Ability.find_by(name: 'poison_touch')
 )
 
 Pokemon.create!(
@@ -321,7 +321,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'anticipation'),
   ability_2: Ability.find_by(name: 'dry_skin'),
-  hidden_ability: Ability.find_by(name: 'poison_touch'),
+  hidden_ability: Ability.find_by(name: 'poison_touch')
 )
 
 Pokemon.create!(
@@ -342,7 +342,7 @@ Pokemon.create!(
   sp_defense: 72,
   speed: 46,
   type_1: Type.find_by(name: 'Grass'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -365,7 +365,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'storm_drain'),
-  hidden_ability: Ability.find_by(name: 'water_veil'),
+  hidden_ability: Ability.find_by(name: 'water_veil')
 )
 
 Pokemon.create!(
@@ -388,7 +388,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'storm_drain'),
-  hidden_ability: Ability.find_by(name: 'water_veil'),
+  hidden_ability: Ability.find_by(name: 'water_veil')
 )
 
 Pokemon.create!(
@@ -412,7 +412,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'water_absorb'),
-  hidden_ability: Ability.find_by(name: 'water_veil'),
+  hidden_ability: Ability.find_by(name: 'water_veil')
 )
 
 Pokemon.create!(
@@ -435,7 +435,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'snow_warning'),
-  hidden_ability: Ability.find_by(name: 'soundproof'),
+  hidden_ability: Ability.find_by(name: 'soundproof')
 )
 
 Pokemon.create!(
@@ -458,5 +458,5 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'snow_warning'),
-  hidden_ability: Ability.find_by(name: 'soundproof'),
+  hidden_ability: Ability.find_by(name: 'soundproof')
 )

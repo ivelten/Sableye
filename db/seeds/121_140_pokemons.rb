@@ -18,7 +18,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'illuminate'),
   ability_2: Ability.find_by(name: 'natural_cure'),
-  hidden_ability: Ability.find_by(name: 'analytic'),
+  hidden_ability: Ability.find_by(name: 'analytic')
 )
 
 Pokemon.create!(
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'soundproof'),
   ability_2: Ability.find_by(name: 'filter'),
-  hidden_ability: Ability.find_by(name: 'technician'),
+  hidden_ability: Ability.find_by(name: 'technician')
 )
 
 Pokemon.create!(
@@ -66,7 +66,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'technician'),
-  hidden_ability: Ability.find_by(name: 'steadfast'),
+  hidden_ability: Ability.find_by(name: 'steadfast')
 )
 
 Pokemon.create!(
@@ -90,7 +90,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'oblivious'),
   ability_2: Ability.find_by(name: 'forewarn'),
-  hidden_ability: Ability.find_by(name: 'dry_skin'),
+  hidden_ability: Ability.find_by(name: 'dry_skin')
 )
 
 Pokemon.create!(
@@ -112,7 +112,7 @@ Pokemon.create!(
   speed: 105,
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'vital_spirit'),
+  hidden_ability: Ability.find_by(name: 'vital_spirit')
 )
 
 Pokemon.create!(
@@ -134,7 +134,7 @@ Pokemon.create!(
   speed: 93,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'flame_body'),
-  hidden_ability: Ability.find_by(name: 'vital_spirit'),
+  hidden_ability: Ability.find_by(name: 'vital_spirit')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   ability_1: Ability.find_by(name: 'hyper_cutter'),
   ability_2: Ability.find_by(name: 'mold_breaker'),
-  hidden_ability: Ability.find_by(name: 'moxie'),
+  hidden_ability: Ability.find_by(name: 'moxie')
 )
 
 Pokemon.create!(
@@ -180,7 +180,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'intimidate'),
   ability_2: Ability.find_by(name: 'anger_point'),
-  hidden_ability: Ability.find_by(name: 'sheer_force'),
+  hidden_ability: Ability.find_by(name: 'sheer_force')
 )
 
 Pokemon.create!(
@@ -202,7 +202,7 @@ Pokemon.create!(
   speed: 80,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
-  hidden_ability: Ability.find_by(name: 'rattled'),
+  hidden_ability: Ability.find_by(name: 'rattled')
 )
 
 Pokemon.create!(
@@ -225,7 +225,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'intimidate'),
-  hidden_ability: Ability.find_by(name: 'moxie'),
+  hidden_ability: Ability.find_by(name: 'moxie')
 )
 
 Pokemon.create!(
@@ -235,7 +235,7 @@ Pokemon.create!(
   height: 2.5,
   weight: 220.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -249,7 +249,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'water_absorb'),
   ability_2: Ability.find_by(name: 'shell_armor'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )
 
 Pokemon.create!(
@@ -270,7 +270,7 @@ Pokemon.create!(
   speed: 48,
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'limber'),
-  hidden_ability: Ability.find_by(name: 'imposter'),
+  hidden_ability: Ability.find_by(name: 'imposter')
 )
 
 Pokemon.create!(
@@ -293,7 +293,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'adaptability'),
-  hidden_ability: Ability.find_by(name: 'anticipation'),
+  hidden_ability: Ability.find_by(name: 'anticipation')
 )
 
 Pokemon.create!(
@@ -315,7 +315,7 @@ Pokemon.create!(
   speed: 65,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'water_absorb'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )
 
 Pokemon.create!(
@@ -337,7 +337,7 @@ Pokemon.create!(
   speed: 130,
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'volt_absorb'),
-  hidden_ability: Ability.find_by(name: 'quick_feet'),
+  hidden_ability: Ability.find_by(name: 'quick_feet')
 )
 
 Pokemon.create!(
@@ -359,7 +359,7 @@ Pokemon.create!(
   speed: 65,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'flash_fire'),
-  hidden_ability: Ability.find_by(name: 'guts'),
+  hidden_ability: Ability.find_by(name: 'guts')
 )
 
 Pokemon.create!(
@@ -381,7 +381,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'trace'),
   ability_2: Ability.find_by(name: 'download'),
-  hidden_ability: Ability.find_by(name: 'analytic'),
+  hidden_ability: Ability.find_by(name: 'analytic')
 )
 
 Pokemon.create!(
@@ -405,7 +405,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'shell_armor'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )
 
 Pokemon.create!(
@@ -429,7 +429,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'shell_armor'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )
 
 Pokemon.create!(
@@ -453,5 +453,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'battle_armor'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )

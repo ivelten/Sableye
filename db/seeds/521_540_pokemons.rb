@@ -19,7 +19,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'big_pecks'),
   ability_2: Ability.find_by(name: 'super_luck'),
-  hidden_ability: Ability.find_by(name: 'rivalry'),
+  hidden_ability: Ability.find_by(name: 'rivalry')
 )
 
 Pokemon.create!(
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'lightningrod'),
   ability_2: Ability.find_by(name: 'motor_drive'),
-  hidden_ability: Ability.find_by(name: 'sap_sipper'),
+  hidden_ability: Ability.find_by(name: 'sap_sipper')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'lightningrod'),
   ability_2: Ability.find_by(name: 'motor_drive'),
-  hidden_ability: Ability.find_by(name: 'sap_sipper'),
+  hidden_ability: Ability.find_by(name: 'sap_sipper')
 )
 
 Pokemon.create!(
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'sturdy'),
   ability_2: Ability.find_by(name: 'weak_armor'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -111,7 +111,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'sturdy'),
   ability_2: Ability.find_by(name: 'weak_armor'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -134,7 +134,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'sturdy'),
   ability_2: Ability.find_by(name: 'sand_stream'),
-  hidden_ability: Ability.find_by(name: 'sand_force'),
+  hidden_ability: Ability.find_by(name: 'sand_force')
 )
 
 Pokemon.create!(
@@ -158,7 +158,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'unaware'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'simple'),
+  hidden_ability: Ability.find_by(name: 'simple')
 )
 
 Pokemon.create!(
@@ -182,7 +182,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'unaware'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'simple'),
+  hidden_ability: Ability.find_by(name: 'simple')
 )
 
 Pokemon.create!(
@@ -205,7 +205,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'sand_rush'),
   ability_2: Ability.find_by(name: 'sand_force'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -229,7 +229,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'sand_rush'),
   ability_2: Ability.find_by(name: 'sand_force'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -252,7 +252,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'healer'),
   ability_2: Ability.find_by(name: 'regenerator'),
-  hidden_ability: Ability.find_by(name: 'klutz'),
+  hidden_ability: Ability.find_by(name: 'klutz')
 )
 
 Pokemon.create!(
@@ -275,7 +275,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'iron_fist'),
+  hidden_ability: Ability.find_by(name: 'iron_fist')
 )
 
 Pokemon.create!(
@@ -298,7 +298,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'iron_fist'),
+  hidden_ability: Ability.find_by(name: 'iron_fist')
 )
 
 Pokemon.create!(
@@ -321,7 +321,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'iron_fist'),
+  hidden_ability: Ability.find_by(name: 'iron_fist')
 )
 
 Pokemon.create!(
@@ -344,7 +344,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'water_absorb'),
+  hidden_ability: Ability.find_by(name: 'water_absorb')
 )
 
 Pokemon.create!(
@@ -368,7 +368,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'water_absorb'),
+  hidden_ability: Ability.find_by(name: 'water_absorb')
 )
 
 Pokemon.create!(
@@ -392,7 +392,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'poison_touch'),
-  hidden_ability: Ability.find_by(name: 'water_absorb'),
+  hidden_ability: Ability.find_by(name: 'water_absorb')
 )
 
 Pokemon.create!(
@@ -415,7 +415,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'guts'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -438,7 +438,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'sturdy'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -462,5 +462,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'chlorophyll'),
-  hidden_ability: Ability.find_by(name: 'overcoat'),
+  hidden_ability: Ability.find_by(name: 'overcoat')
 )

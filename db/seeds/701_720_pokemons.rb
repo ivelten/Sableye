@@ -19,7 +19,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'limber'),
   ability_2: Ability.find_by(name: 'unburden'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -43,7 +43,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'cheek_pouch'),
   ability_2: Ability.find_by(name: 'pickup'),
-  hidden_ability: Ability.find_by(name: 'plus'),
+  hidden_ability: Ability.find_by(name: 'plus')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'sturdy'),
+  hidden_ability: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -75,7 +75,7 @@ Pokemon.create!(
   height: 0.3,
   weight: 2.8,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'sap_sipper'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'gooey'),
+  hidden_ability: Ability.find_by(name: 'gooey')
 )
 
 Pokemon.create!(
@@ -98,7 +98,7 @@ Pokemon.create!(
   height: 0.8,
   weight: 17.5,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -111,7 +111,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'sap_sipper'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'gooey'),
+  hidden_ability: Ability.find_by(name: 'gooey')
 )
 
 Pokemon.create!(
@@ -121,7 +121,7 @@ Pokemon.create!(
   height: 2.0,
   weight: 150.5,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -134,7 +134,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'sap_sipper'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'gooey'),
+  hidden_ability: Ability.find_by(name: 'gooey')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'prankster'),
-  hidden_ability: Ability.find_by(name: 'magician'),
+  hidden_ability: Ability.find_by(name: 'magician')
 )
 
 Pokemon.create!(
@@ -181,7 +181,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'natural_cure'),
   ability_2: Ability.find_by(name: 'frisk'),
-  hidden_ability: Ability.find_by(name: 'harvest'),
+  hidden_ability: Ability.find_by(name: 'harvest')
 )
 
 Pokemon.create!(
@@ -205,7 +205,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'natural_cure'),
   ability_2: Ability.find_by(name: 'frisk'),
-  hidden_ability: Ability.find_by(name: 'harvest'),
+  hidden_ability: Ability.find_by(name: 'harvest')
 )
 
 Pokemon.create!(
@@ -229,7 +229,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'frisk'),
-  hidden_ability: Ability.find_by(name: 'insomnia'),
+  hidden_ability: Ability.find_by(name: 'insomnia')
 )
 
 Pokemon.create!(
@@ -253,7 +253,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'frisk'),
-  hidden_ability: Ability.find_by(name: 'insomnia'),
+  hidden_ability: Ability.find_by(name: 'insomnia')
 )
 
 Pokemon.create!(
@@ -276,7 +276,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'own_tempo'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'sturdy'),
+  hidden_ability: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -299,7 +299,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'own_tempo'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'sturdy'),
+  hidden_ability: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -323,7 +323,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'frisk'),
   ability_2: Ability.find_by(name: 'infiltrator'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -347,7 +347,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'frisk'),
   ability_2: Ability.find_by(name: 'infiltrator'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -357,7 +357,7 @@ Pokemon.create!(
   height: 3.0,
   weight: 215.0,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 126,
@@ -367,7 +367,7 @@ Pokemon.create!(
   sp_defense: 98,
   speed: 99,
   type_1: Type.find_by(name: 'Fairy'),
-  ability_1: Ability.find_by(name: 'fairy_aura'),
+  ability_1: Ability.find_by(name: 'fairy_aura')
 )
 
 Pokemon.create!(
@@ -377,7 +377,7 @@ Pokemon.create!(
   height: 5.8,
   weight: 203.0,
   capture_rate: 45,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 126,
@@ -388,7 +388,7 @@ Pokemon.create!(
   speed: 99,
   type_1: Type.find_by(name: 'Dark'),
   type_2: Type.find_by(name: 'Flying'),
-  ability_1: Ability.find_by(name: 'dark_aura'),
+  ability_1: Ability.find_by(name: 'dark_aura')
 )
 
 Pokemon.create!(
@@ -398,7 +398,7 @@ Pokemon.create!(
   height: 5.0,
   weight: 284.6,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 108,
@@ -410,7 +410,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'aura_break'),
-  hidden_ability: Ability.find_by(name: 'power_construct'),
+  hidden_ability: Ability.find_by(name: 'power_construct')
 )
 
 Pokemon.create!(
@@ -431,7 +431,7 @@ Pokemon.create!(
   speed: 50,
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Fairy'),
-  ability_1: Ability.find_by(name: 'clear_body'),
+  ability_1: Ability.find_by(name: 'clear_body')
 )
 
 Pokemon.create!(
@@ -442,7 +442,7 @@ Djinnn (Unbound)',
   height: 6.5,
   weight: 9.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 100,
   hp: 80,
@@ -452,5 +452,5 @@ Djinnn (Unbound)',
   sp_defense: 130,
   speed: 70,
   type_1: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'magician'),
+  ability_1: Ability.find_by(name: 'magician')
 )

@@ -5,7 +5,7 @@ Pokemon.create!(
   height: 1.0,
   weight: 80.5,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 80,
@@ -16,7 +16,7 @@ Pokemon.create!(
   speed: 65,
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Fairy'),
-  ability_1: Ability.find_by(name: 'soul-heart'),
+  ability_1: Ability.find_by(name: 'soul-heart')
 )
 
 Pokemon.create!(
@@ -26,7 +26,7 @@ Pokemon.create!(
   height: 0.7,
   weight: 22.2,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 90,
@@ -37,5 +37,5 @@ Pokemon.create!(
   speed: 125,
   type_1: Type.find_by(name: 'Fighting'),
   type_2: Type.find_by(name: 'Ghost'),
-  ability_1: Ability.find_by(name: 'technician'),
+  ability_1: Ability.find_by(name: 'technician')
 )

@@ -19,7 +19,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'wonder_skin_'),
   ability_2: Ability.find_by(name: 'magic_guard'),
-  hidden_ability: Ability.find_by(name: 'tinted_lens'),
+  hidden_ability: Ability.find_by(name: 'tinted_lens')
 )
 
 Pokemon.create!(
@@ -40,7 +40,7 @@ Pokemon.create!(
   sp_defense: 65,
   speed: 30,
   type_1: Type.find_by(name: 'Ghost'),
-  ability_1: Ability.find_by(name: 'mummy'),
+  ability_1: Ability.find_by(name: 'mummy')
 )
 
 Pokemon.create!(
@@ -61,7 +61,7 @@ Pokemon.create!(
   sp_defense: 105,
   speed: 30,
   type_1: Type.find_by(name: 'Ghost'),
-  ability_1: Ability.find_by(name: 'mummy'),
+  ability_1: Ability.find_by(name: 'mummy')
 )
 
 Pokemon.create!(
@@ -85,7 +85,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'solid_rock'),
   ability_2: Ability.find_by(name: 'sturdy'),
-  hidden_ability: Ability.find_by(name: 'swift_swim'),
+  hidden_ability: Ability.find_by(name: 'swift_swim')
 )
 
 Pokemon.create!(
@@ -109,7 +109,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'solid_rock'),
   ability_2: Ability.find_by(name: 'sturdy'),
-  hidden_ability: Ability.find_by(name: 'swift_swim'),
+  hidden_ability: Ability.find_by(name: 'swift_swim')
 )
 
 Pokemon.create!(
@@ -131,7 +131,7 @@ Pokemon.create!(
   speed: 70,
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Flying'),
-  ability_1: Ability.find_by(name: 'defeatist'),
+  ability_1: Ability.find_by(name: 'defeatist')
 )
 
 Pokemon.create!(
@@ -153,7 +153,7 @@ Pokemon.create!(
   speed: 110,
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Flying'),
-  ability_1: Ability.find_by(name: 'defeatist'),
+  ability_1: Ability.find_by(name: 'defeatist')
 )
 
 Pokemon.create!(
@@ -176,7 +176,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'stench'),
   ability_2: Ability.find_by(name: 'sticky_hold'),
-  hidden_ability: Ability.find_by(name: 'aftermath'),
+  hidden_ability: Ability.find_by(name: 'aftermath')
 )
 
 Pokemon.create!(
@@ -199,7 +199,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'stench'),
   ability_2: Ability.find_by(name: 'weak_armor'),
-  hidden_ability: Ability.find_by(name: 'aftermath'),
+  hidden_ability: Ability.find_by(name: 'aftermath')
 )
 
 Pokemon.create!(
@@ -220,7 +220,7 @@ Pokemon.create!(
   sp_defense: 40,
   speed: 65,
   type_1: Type.find_by(name: 'Dark'),
-  ability_1: Ability.find_by(name: 'illusion'),
+  ability_1: Ability.find_by(name: 'illusion')
 )
 
 Pokemon.create!(
@@ -241,7 +241,7 @@ Pokemon.create!(
   sp_defense: 60,
   speed: 105,
   type_1: Type.find_by(name: 'Dark'),
-  ability_1: Ability.find_by(name: 'illusion'),
+  ability_1: Ability.find_by(name: 'illusion')
 )
 
 Pokemon.create!(
@@ -264,7 +264,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'cute_charm'),
   ability_2: Ability.find_by(name: 'technician'),
-  hidden_ability: Ability.find_by(name: 'skill_link'),
+  hidden_ability: Ability.find_by(name: 'skill_link')
 )
 
 Pokemon.create!(
@@ -287,7 +287,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'cute_charm'),
   ability_2: Ability.find_by(name: 'technician'),
-  hidden_ability: Ability.find_by(name: 'skill_link'),
+  hidden_ability: Ability.find_by(name: 'skill_link')
 )
 
 Pokemon.create!(
@@ -310,7 +310,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'frisk'),
   ability_2: Ability.find_by(name: 'competitive'),
-  hidden_ability: Ability.find_by(name: 'shadow_tag'),
+  hidden_ability: Ability.find_by(name: 'shadow_tag')
 )
 
 Pokemon.create!(
@@ -333,7 +333,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'frisk'),
   ability_2: Ability.find_by(name: 'competitive'),
-  hidden_ability: Ability.find_by(name: 'shadow_tag'),
+  hidden_ability: Ability.find_by(name: 'shadow_tag')
 )
 
 Pokemon.create!(
@@ -356,7 +356,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'frisk'),
   ability_2: Ability.find_by(name: 'competitive'),
-  hidden_ability: Ability.find_by(name: 'shadow_tag'),
+  hidden_ability: Ability.find_by(name: 'shadow_tag')
 )
 
 Pokemon.create!(
@@ -379,7 +379,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
   ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -402,7 +402,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
   ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -425,7 +425,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
   ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'magic_guard')
 )
 
 Pokemon.create!(
@@ -449,5 +449,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'big_pecks'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )

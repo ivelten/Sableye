@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'quick_feet'),
-  hidden_ability: Ability.find_by(name: 'rattled'),
+  hidden_ability: Ability.find_by(name: 'rattled')
 )
 
 Pokemon.create!(
@@ -41,7 +41,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'intimidate'),
   ability_2: Ability.find_by(name: 'quick_feet'),
-  hidden_ability: Ability.find_by(name: 'moxie'),
+  hidden_ability: Ability.find_by(name: 'moxie')
 )
 
 Pokemon.create!(
@@ -64,7 +64,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'quick_feet'),
+  hidden_ability: Ability.find_by(name: 'quick_feet')
 )
 
 Pokemon.create!(
@@ -87,7 +87,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'quick_feet'),
+  hidden_ability: Ability.find_by(name: 'quick_feet')
 )
 
 Pokemon.create!(
@@ -109,7 +109,7 @@ Pokemon.create!(
   speed: 20,
   type_1: Type.find_by(name: 'Bug'),
   ability_1: Ability.find_by(name: 'shield_dust'),
-  hidden_ability: Ability.find_by(name: 'run_away'),
+  hidden_ability: Ability.find_by(name: 'run_away')
 )
 
 Pokemon.create!(
@@ -130,7 +130,7 @@ Pokemon.create!(
   sp_defense: 25,
   speed: 15,
   type_1: Type.find_by(name: 'Bug'),
-  ability_1: Ability.find_by(name: 'shed_skin'),
+  ability_1: Ability.find_by(name: 'shed_skin')
 )
 
 Pokemon.create!(
@@ -153,7 +153,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'swarm'),
-  hidden_ability: Ability.find_by(name: 'rivalry'),
+  hidden_ability: Ability.find_by(name: 'rivalry')
 )
 
 Pokemon.create!(
@@ -174,7 +174,7 @@ Pokemon.create!(
   sp_defense: 25,
   speed: 15,
   type_1: Type.find_by(name: 'Bug'),
-  ability_1: Ability.find_by(name: 'shed_skin'),
+  ability_1: Ability.find_by(name: 'shed_skin')
 )
 
 Pokemon.create!(
@@ -197,7 +197,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'shield_dust'),
-  hidden_ability: Ability.find_by(name: 'compoundeyes'),
+  hidden_ability: Ability.find_by(name: 'compoundeyes')
 )
 
 Pokemon.create!(
@@ -221,7 +221,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'rain_dish'),
-  hidden_ability: Ability.find_by(name: 'own_tempo'),
+  hidden_ability: Ability.find_by(name: 'own_tempo')
 )
 
 Pokemon.create!(
@@ -245,7 +245,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'rain_dish'),
-  hidden_ability: Ability.find_by(name: 'own_tempo'),
+  hidden_ability: Ability.find_by(name: 'own_tempo')
 )
 
 Pokemon.create!(
@@ -269,7 +269,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'rain_dish'),
-  hidden_ability: Ability.find_by(name: 'own_tempo'),
+  hidden_ability: Ability.find_by(name: 'own_tempo')
 )
 
 Pokemon.create!(
@@ -292,7 +292,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'pickpocket'),
+  hidden_ability: Ability.find_by(name: 'pickpocket')
 )
 
 Pokemon.create!(
@@ -316,7 +316,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'pickpocket'),
+  hidden_ability: Ability.find_by(name: 'pickpocket')
 )
 
 Pokemon.create!(
@@ -340,7 +340,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'early_bird'),
-  hidden_ability: Ability.find_by(name: 'pickpocket'),
+  hidden_ability: Ability.find_by(name: 'pickpocket')
 )
 
 Pokemon.create!(
@@ -363,7 +363,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'guts'),
-  hidden_ability: Ability.find_by(name: 'scrappy'),
+  hidden_ability: Ability.find_by(name: 'scrappy')
 )
 
 Pokemon.create!(
@@ -386,7 +386,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'guts'),
-  hidden_ability: Ability.find_by(name: 'scrappy'),
+  hidden_ability: Ability.find_by(name: 'scrappy')
 )
 
 Pokemon.create!(
@@ -410,7 +410,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'rain_dish'),
+  hidden_ability: Ability.find_by(name: 'rain_dish')
 )
 
 Pokemon.create!(
@@ -434,7 +434,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'drizzle'),
-  hidden_ability: Ability.find_by(name: 'rain_dish'),
+  hidden_ability: Ability.find_by(name: 'rain_dish')
 )
 
 Pokemon.create!(
@@ -458,5 +458,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'synchronize'),
   ability_2: Ability.find_by(name: 'trace'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )

@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'inner_focus'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'moody'),
+  hidden_ability: Ability.find_by(name: 'moody')
 )
 
 Pokemon.create!(
@@ -41,7 +41,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'inner_focus'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'moody'),
+  hidden_ability: Ability.find_by(name: 'moody')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'thick_fat'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'oblivious'),
+  hidden_ability: Ability.find_by(name: 'oblivious')
 )
 
 Pokemon.create!(
@@ -89,7 +89,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'thick_fat'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'oblivious'),
+  hidden_ability: Ability.find_by(name: 'oblivious')
 )
 
 Pokemon.create!(
@@ -113,7 +113,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'thick_fat'),
   ability_2: Ability.find_by(name: 'ice_body'),
-  hidden_ability: Ability.find_by(name: 'oblivious'),
+  hidden_ability: Ability.find_by(name: 'oblivious')
 )
 
 Pokemon.create!(
@@ -135,7 +135,7 @@ Pokemon.create!(
   speed: 32,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'shell_armor'),
-  hidden_ability: Ability.find_by(name: 'rattled'),
+  hidden_ability: Ability.find_by(name: 'rattled')
 )
 
 Pokemon.create!(
@@ -157,7 +157,7 @@ Pokemon.create!(
   speed: 52,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
-  hidden_ability: Ability.find_by(name: 'water_veil'),
+  hidden_ability: Ability.find_by(name: 'water_veil')
 )
 
 Pokemon.create!(
@@ -179,7 +179,7 @@ Pokemon.create!(
   speed: 52,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )
 
 Pokemon.create!(
@@ -189,7 +189,7 @@ Pokemon.create!(
   height: 1.0,
   weight: 23.4,
   capture_rate: 25,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 87.5,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -203,7 +203,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'rock_head'),
-  hidden_ability: Ability.find_by(name: 'sturdy'),
+  hidden_ability: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -225,7 +225,7 @@ Pokemon.create!(
   speed: 97,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )
 
 Pokemon.create!(
@@ -235,7 +235,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 42.1,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -247,7 +247,7 @@ Pokemon.create!(
   speed: 50,
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'rock_head'),
-  hidden_ability: Ability.find_by(name: 'sheer_force'),
+  hidden_ability: Ability.find_by(name: 'sheer_force')
 )
 
 Pokemon.create!(
@@ -257,7 +257,7 @@ Pokemon.create!(
   height: 1.1,
   weight: 110.5,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -270,7 +270,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'overcoat'),
-  hidden_ability: Ability.find_by(name: 'powder_moves'),
+  hidden_ability: Ability.find_by(name: 'powder_moves')
 )
 
 Pokemon.create!(
@@ -280,7 +280,7 @@ Pokemon.create!(
   height: 1.5,
   weight: 102.6,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -293,7 +293,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'intimidate'),
-  hidden_ability: Ability.find_by(name: 'moxie'),
+  hidden_ability: Ability.find_by(name: 'moxie')
 )
 
 Pokemon.create!(
@@ -303,7 +303,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 95.2,
   capture_rate: 3,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 40,
@@ -315,7 +315,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'light_metal'),
+  hidden_ability: Ability.find_by(name: 'light_metal')
 )
 
 Pokemon.create!(
@@ -325,7 +325,7 @@ Pokemon.create!(
   height: 1.2,
   weight: 202.5,
   capture_rate: 3,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 60,
@@ -337,7 +337,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'light_metal'),
+  hidden_ability: Ability.find_by(name: 'light_metal')
 )
 
 Pokemon.create!(
@@ -347,7 +347,7 @@ Pokemon.create!(
   height: 1.6,
   weight: 550.0,
   capture_rate: 3,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 80,
@@ -359,7 +359,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'light_metal'),
+  hidden_ability: Ability.find_by(name: 'light_metal')
 )
 
 Pokemon.create!(
@@ -369,7 +369,7 @@ Pokemon.create!(
   height: 1.7,
   weight: 230.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 80,
@@ -380,7 +380,7 @@ Pokemon.create!(
   speed: 50,
   type_1: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'sturdy'),
+  hidden_ability: Ability.find_by(name: 'sturdy')
 )
 
 Pokemon.create!(
@@ -390,7 +390,7 @@ Pokemon.create!(
   height: 1.8,
   weight: 175.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 80,
@@ -401,7 +401,7 @@ Pokemon.create!(
   speed: 50,
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'ice_body'),
+  hidden_ability: Ability.find_by(name: 'ice_body')
 )
 
 Pokemon.create!(
@@ -411,7 +411,7 @@ Pokemon.create!(
   height: 1.9,
   weight: 205.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 80,
@@ -422,7 +422,7 @@ Pokemon.create!(
   speed: 50,
   type_1: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'clear_body'),
-  hidden_ability: Ability.find_by(name: 'light_metal'),
+  hidden_ability: Ability.find_by(name: 'light_metal')
 )
 
 Pokemon.create!(
@@ -432,7 +432,7 @@ Pokemon.create!(
   height: 1.4,
   weight: 40.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   male_gender_ratio: 0,
   experience_growth: 1_250_000,
   base_happiness: 90,
@@ -444,5 +444,5 @@ Pokemon.create!(
   speed: 110,
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Psychic'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )

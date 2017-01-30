@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dragon'),
   ability_1: Ability.find_by(name: 'rough_skin'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'mold_breaker'),
+  hidden_ability: Ability.find_by(name: 'mold_breaker')
 )
 
 Pokemon.create!(
@@ -41,7 +41,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ghost'),
   ability_1: Ability.find_by(name: 'iron_fist'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'no_guard'),
+  hidden_ability: Ability.find_by(name: 'no_guard')
 )
 
 Pokemon.create!(
@@ -64,7 +64,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ghost'),
   ability_1: Ability.find_by(name: 'iron_fist'),
   ability_2: Ability.find_by(name: 'klutz'),
-  hidden_ability: Ability.find_by(name: 'no_guard'),
+  hidden_ability: Ability.find_by(name: 'no_guard')
 )
 
 Pokemon.create!(
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'defiant'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'pressure'),
+  hidden_ability: Ability.find_by(name: 'pressure')
 )
 
 Pokemon.create!(
@@ -112,7 +112,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'defiant'),
   ability_2: Ability.find_by(name: 'inner_focus'),
-  hidden_ability: Ability.find_by(name: 'pressure'),
+  hidden_ability: Ability.find_by(name: 'pressure')
 )
 
 Pokemon.create!(
@@ -135,7 +135,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'reckless'),
   ability_2: Ability.find_by(name: 'sap_sipper'),
-  hidden_ability: Ability.find_by(name: 'soundproof'),
+  hidden_ability: Ability.find_by(name: 'soundproof')
 )
 
 Pokemon.create!(
@@ -159,7 +159,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'hustle'),
+  hidden_ability: Ability.find_by(name: 'hustle')
 )
 
 Pokemon.create!(
@@ -183,7 +183,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'defiant'),
+  hidden_ability: Ability.find_by(name: 'defiant')
 )
 
 Pokemon.create!(
@@ -207,7 +207,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'big_pecks'),
   ability_2: Ability.find_by(name: 'overcoat'),
-  hidden_ability: Ability.find_by(name: 'powder_moves'),
+  hidden_ability: Ability.find_by(name: 'powder_moves')
 )
 
 Pokemon.create!(
@@ -231,7 +231,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'big_pecks'),
   ability_2: Ability.find_by(name: 'overcoat'),
-  hidden_ability: Ability.find_by(name: 'powder_moves'),
+  hidden_ability: Ability.find_by(name: 'powder_moves')
 )
 
 Pokemon.create!(
@@ -254,7 +254,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'gluttony'),
   ability_2: Ability.find_by(name: 'flash_fire'),
-  hidden_ability: Ability.find_by(name: 'white_smoke'),
+  hidden_ability: Ability.find_by(name: 'white_smoke')
 )
 
 Pokemon.create!(
@@ -278,7 +278,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'hustle'),
-  hidden_ability: Ability.find_by(name: 'truant'),
+  hidden_ability: Ability.find_by(name: 'truant')
 )
 
 Pokemon.create!(
@@ -288,7 +288,7 @@ Pokemon.create!(
   height: 0.8,
   weight: 17.3,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -300,7 +300,7 @@ Pokemon.create!(
   speed: 38,
   type_1: Type.find_by(name: 'Dark'),
   type_2: Type.find_by(name: 'Dragon'),
-  ability_1: Ability.find_by(name: 'hustle'),
+  ability_1: Ability.find_by(name: 'hustle')
 )
 
 Pokemon.create!(
@@ -310,7 +310,7 @@ Pokemon.create!(
   height: 1.4,
   weight: 50.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -322,7 +322,7 @@ Pokemon.create!(
   speed: 58,
   type_1: Type.find_by(name: 'Dark'),
   type_2: Type.find_by(name: 'Dragon'),
-  ability_1: Ability.find_by(name: 'hustle'),
+  ability_1: Ability.find_by(name: 'hustle')
 )
 
 Pokemon.create!(
@@ -332,7 +332,7 @@ Pokemon.create!(
   height: 1.8,
   weight: 160.0,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 35,
@@ -344,7 +344,7 @@ Pokemon.create!(
   speed: 98,
   type_1: Type.find_by(name: 'Dark'),
   type_2: Type.find_by(name: 'Dragon'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -354,7 +354,7 @@ Pokemon.create!(
   height: 1.1,
   weight: 28.8,
   capture_rate: 45,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -367,7 +367,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'flame_body'),
-  hidden_ability: Ability.find_by(name: 'swarm'),
+  hidden_ability: Ability.find_by(name: 'swarm')
 )
 
 Pokemon.create!(
@@ -377,7 +377,7 @@ Pokemon.create!(
   height: 1.6,
   weight: 46.0,
   capture_rate: 15,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 1_250_000,
   base_happiness: 70,
@@ -390,7 +390,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'flame_body'),
-  hidden_ability: Ability.find_by(name: 'swarm'),
+  hidden_ability: Ability.find_by(name: 'swarm')
 )
 
 Pokemon.create!(
@@ -400,7 +400,7 @@ Pokemon.create!(
   height: 2.1,
   weight: 250.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 91,
@@ -411,7 +411,7 @@ Pokemon.create!(
   speed: 108,
   type_1: Type.find_by(name: 'Steel'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'justified'),
+  ability_1: Ability.find_by(name: 'justified')
 )
 
 Pokemon.create!(
@@ -421,7 +421,7 @@ Pokemon.create!(
   height: 1.9,
   weight: 260.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 91,
@@ -432,7 +432,7 @@ Pokemon.create!(
   speed: 108,
   type_1: Type.find_by(name: 'Rock'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'justified'),
+  ability_1: Ability.find_by(name: 'justified')
 )
 
 Pokemon.create!(
@@ -442,7 +442,7 @@ Pokemon.create!(
   height: 2.0,
   weight: 200.0,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 91,
@@ -453,5 +453,5 @@ Pokemon.create!(
   speed: 108,
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'justified'),
+  ability_1: Ability.find_by(name: 'justified')
 )

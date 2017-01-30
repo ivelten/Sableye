@@ -17,7 +17,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'soundproof'),
   ability_2: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'aftermath'),
+  hidden_ability: Ability.find_by(name: 'aftermath')
 )
 
 Pokemon.create!(
@@ -40,7 +40,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
-  hidden_ability: Ability.find_by(name: 'harvest'),
+  hidden_ability: Ability.find_by(name: 'harvest')
 )
 
 Pokemon.create!(
@@ -63,7 +63,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'harvest'),
-  hidden_ability: Ability.find_by(name: 'frisk'),
+  hidden_ability: Ability.find_by(name: 'frisk')
 )
 
 Pokemon.create!(
@@ -86,7 +86,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'lightningrod'),
-  hidden_ability: Ability.find_by(name: 'battle_armor'),
+  hidden_ability: Ability.find_by(name: 'battle_armor')
 )
 
 Pokemon.create!(
@@ -109,7 +109,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'rock_head'),
   ability_2: Ability.find_by(name: 'lightningrod'),
-  hidden_ability: Ability.find_by(name: 'battle_armor'),
+  hidden_ability: Ability.find_by(name: 'battle_armor')
 )
 
 Pokemon.create!(
@@ -132,7 +132,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'limber'),
   ability_2: Ability.find_by(name: 'reckless'),
-  hidden_ability: Ability.find_by(name: 'unburden'),
+  hidden_ability: Ability.find_by(name: 'unburden')
 )
 
 Pokemon.create!(
@@ -155,7 +155,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'iron_fist'),
-  hidden_ability: Ability.find_by(name: 'inner_focus'),
+  hidden_ability: Ability.find_by(name: 'inner_focus')
 )
 
 Pokemon.create!(
@@ -178,7 +178,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'own_tempo'),
   ability_2: Ability.find_by(name: 'oblivious'),
-  hidden_ability: Ability.find_by(name: 'cloud_nine'),
+  hidden_ability: Ability.find_by(name: 'cloud_nine')
 )
 
 Pokemon.create!(
@@ -199,7 +199,7 @@ Pokemon.create!(
   sp_defense: 45,
   speed: 35,
   type_1: Type.find_by(name: 'Poison'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -220,7 +220,7 @@ Pokemon.create!(
   sp_defense: 70,
   speed: 60,
   type_1: Type.find_by(name: 'Poison'),
-  ability_1: Ability.find_by(name: 'levitate'),
+  ability_1: Ability.find_by(name: 'levitate')
 )
 
 Pokemon.create!(
@@ -244,7 +244,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'lightningrod'),
   ability_2: Ability.find_by(name: 'rock_head'),
-  hidden_ability: Ability.find_by(name: 'reckless'),
+  hidden_ability: Ability.find_by(name: 'reckless')
 )
 
 Pokemon.create!(
@@ -268,7 +268,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Rock'),
   ability_1: Ability.find_by(name: 'lightningrod'),
   ability_2: Ability.find_by(name: 'rock_head'),
-  hidden_ability: Ability.find_by(name: 'reckless'),
+  hidden_ability: Ability.find_by(name: 'reckless')
 )
 
 Pokemon.create!(
@@ -278,7 +278,7 @@ Pokemon.create!(
   height: 1.1,
   weight: 34.6,
   capture_rate: 30,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 0,
   experience_growth: 800_000,
   base_happiness: 140,
@@ -291,7 +291,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'natural_cure'),
   ability_2: Ability.find_by(name: 'serene_grace'),
-  hidden_ability: Ability.find_by(name: 'healer'),
+  hidden_ability: Ability.find_by(name: 'healer')
 )
 
 Pokemon.create!(
@@ -314,7 +314,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'leaf_guard'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -337,7 +337,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'early_bird'),
   ability_2: Ability.find_by(name: 'scrappy'),
-  hidden_ability: Ability.find_by(name: 'inner_focus'),
+  hidden_ability: Ability.find_by(name: 'inner_focus')
 )
 
 Pokemon.create!(
@@ -360,7 +360,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'sniper'),
-  hidden_ability: Ability.find_by(name: 'damp'),
+  hidden_ability: Ability.find_by(name: 'damp')
 )
 
 Pokemon.create!(
@@ -383,7 +383,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'poison_point'),
   ability_2: Ability.find_by(name: 'sniper'),
-  hidden_ability: Ability.find_by(name: 'damp'),
+  hidden_ability: Ability.find_by(name: 'damp')
 )
 
 Pokemon.create!(
@@ -406,7 +406,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'water_veil'),
-  hidden_ability: Ability.find_by(name: 'lightningrod'),
+  hidden_ability: Ability.find_by(name: 'lightningrod')
 )
 
 Pokemon.create!(
@@ -429,7 +429,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'swift_swim'),
   ability_2: Ability.find_by(name: 'water_veil'),
-  hidden_ability: Ability.find_by(name: 'lightningrod'),
+  hidden_ability: Ability.find_by(name: 'lightningrod')
 )
 
 Pokemon.create!(
@@ -451,5 +451,5 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'illuminate'),
   ability_2: Ability.find_by(name: 'natural_cure'),
-  hidden_ability: Ability.find_by(name: 'analytic'),
+  hidden_ability: Ability.find_by(name: 'analytic')
 )

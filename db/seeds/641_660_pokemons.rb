@@ -5,7 +5,7 @@ Pokemon.create!(
   height: 1.5,
   weight: 63.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   male_gender_ratio: 100,
   experience_growth: 1_250_000,
   base_happiness: 90,
@@ -18,7 +18,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'prankster'),
   ability_2: Ability.find_by(name: 'defiant'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -28,7 +28,7 @@ Pokemon.create!(
   height: 1.5,
   weight: 61.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   male_gender_ratio: 100,
   experience_growth: 1_250_000,
   base_happiness: 90,
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'prankster'),
   ability_2: Ability.find_by(name: 'defiant'),
-  hidden_ability: Ability.find_by(name: 'volt_absorb'),
+  hidden_ability: Ability.find_by(name: 'volt_absorb')
 )
 
 Pokemon.create!(
@@ -52,7 +52,7 @@ Pokemon.create!(
   height: 3.2,
   weight: 330.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 100,
@@ -63,7 +63,7 @@ Pokemon.create!(
   speed: 90,
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Fire'),
-  ability_1: Ability.find_by(name: 'turboblaze'),
+  ability_1: Ability.find_by(name: 'turboblaze')
 )
 
 Pokemon.create!(
@@ -73,7 +73,7 @@ Pokemon.create!(
   height: 2.9,
   weight: 345.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 100,
@@ -84,7 +84,7 @@ Pokemon.create!(
   speed: 90,
   type_1: Type.find_by(name: 'Dragon'),
   type_2: Type.find_by(name: 'Electric'),
-  ability_1: Ability.find_by(name: 'teravolt'),
+  ability_1: Ability.find_by(name: 'teravolt')
 )
 
 Pokemon.create!(
@@ -94,7 +94,7 @@ Pokemon.create!(
   height: 1.5,
   weight: 68.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   male_gender_ratio: 100,
   experience_growth: 1_250_000,
   base_happiness: 90,
@@ -108,7 +108,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'sand_force'),
   ability_2: Ability.find_by(name: 'sheer_force'),
-  hidden_ability: Ability.find_by(name: 'intimidate'),
+  hidden_ability: Ability.find_by(name: 'intimidate')
 )
 
 Pokemon.create!(
@@ -118,7 +118,7 @@ Pokemon.create!(
   height: 3.0,
   weight: 325.0,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 125,
@@ -131,7 +131,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'pressure'),
   ability_2: Ability.find_by(name: 'teravolt'),
-  hidden_ability: Ability.find_by(name: 'turboblaze'),
+  hidden_ability: Ability.find_by(name: 'turboblaze')
 )
 
 Pokemon.create!(
@@ -141,7 +141,7 @@ Pokemon.create!(
   height: 1.4,
   weight: 48.5,
   capture_rate: 3,
-  base_egg_steps: 20480,
+  base_egg_steps: 20_480,
   experience_growth: 1_250_000,
   base_happiness: 35,
   hp: 91,
@@ -152,7 +152,7 @@ Pokemon.create!(
   speed: 108,
   type_1: Type.find_by(name: 'Water'),
   type_2: Type.find_by(name: 'Fighting'),
-  ability_1: Ability.find_by(name: 'justified'),
+  ability_1: Ability.find_by(name: 'justified')
 )
 
 Pokemon.create!(
@@ -162,7 +162,7 @@ Pokemon.create!(
   height: 0.6,
   weight: 6.5,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 100,
   hp: 100,
@@ -172,7 +172,7 @@ Pokemon.create!(
   sp_defense: 128,
   speed: 90,
   type_1: Type.find_by(name: 'Normal'),
-  ability_1: Ability.find_by(name: 'serene_grace'),
+  ability_1: Ability.find_by(name: 'serene_grace')
 )
 
 Pokemon.create!(
@@ -182,7 +182,7 @@ Pokemon.create!(
   height: 1.5,
   weight: 82.5,
   capture_rate: 3,
-  base_egg_steps: 30720,
+  base_egg_steps: 30_720,
   experience_growth: 1_250_000,
   base_happiness: 0,
   hp: 71,
@@ -193,7 +193,7 @@ Pokemon.create!(
   speed: 99,
   type_1: Type.find_by(name: 'Bug'),
   type_2: Type.find_by(name: 'Steel'),
-  ability_1: Ability.find_by(name: 'download'),
+  ability_1: Ability.find_by(name: 'download')
 )
 
 Pokemon.create!(
@@ -215,7 +215,7 @@ Pokemon.create!(
   speed: 38,
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'overgrow'),
-  hidden_ability: Ability.find_by(name: 'bulletproof'),
+  hidden_ability: Ability.find_by(name: 'bulletproof')
 )
 
 Pokemon.create!(
@@ -237,7 +237,7 @@ Pokemon.create!(
   speed: 57,
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'overgrow'),
-  hidden_ability: Ability.find_by(name: 'bulletproof'),
+  hidden_ability: Ability.find_by(name: 'bulletproof')
 )
 
 Pokemon.create!(
@@ -260,7 +260,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Fighting'),
   ability_1: Ability.find_by(name: 'overgrow'),
-  hidden_ability: Ability.find_by(name: 'bulletproof'),
+  hidden_ability: Ability.find_by(name: 'bulletproof')
 )
 
 Pokemon.create!(
@@ -282,7 +282,7 @@ Pokemon.create!(
   speed: 60,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'blaze'),
-  hidden_ability: Ability.find_by(name: 'magician'),
+  hidden_ability: Ability.find_by(name: 'magician')
 )
 
 Pokemon.create!(
@@ -304,7 +304,7 @@ Pokemon.create!(
   speed: 73,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'blaze'),
-  hidden_ability: Ability.find_by(name: 'magician'),
+  hidden_ability: Ability.find_by(name: 'magician')
 )
 
 Pokemon.create!(
@@ -327,7 +327,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Fire'),
   type_2: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'blaze'),
-  hidden_ability: Ability.find_by(name: 'magician'),
+  hidden_ability: Ability.find_by(name: 'magician')
 )
 
 Pokemon.create!(
@@ -349,7 +349,7 @@ Pokemon.create!(
   speed: 71,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'torrent'),
-  hidden_ability: Ability.find_by(name: 'protean'),
+  hidden_ability: Ability.find_by(name: 'protean')
 )
 
 Pokemon.create!(
@@ -371,7 +371,7 @@ Pokemon.create!(
   speed: 97,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'torrent'),
-  hidden_ability: Ability.find_by(name: 'protean'),
+  hidden_ability: Ability.find_by(name: 'protean')
 )
 
 Pokemon.create!(
@@ -395,7 +395,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'torrent'),
   ability_2: Ability.find_by(name: 'protean'),
-  hidden_ability: Ability.find_by(name: 'battle_bond'),
+  hidden_ability: Ability.find_by(name: 'battle_bond')
 )
 
 Pokemon.create!(
@@ -418,7 +418,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'cheek_pouch'),
-  hidden_ability: Ability.find_by(name: 'huge_power'),
+  hidden_ability: Ability.find_by(name: 'huge_power')
 )
 
 Pokemon.create!(
@@ -442,5 +442,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ground'),
   ability_1: Ability.find_by(name: 'pickup'),
   ability_2: Ability.find_by(name: 'cheek_pouch'),
-  hidden_ability: Ability.find_by(name: 'huge_power'),
+  hidden_ability: Ability.find_by(name: 'huge_power')
 )

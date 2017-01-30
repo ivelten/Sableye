@@ -17,7 +17,7 @@ Pokemon.create!(
   speed: 45,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'torrent'),
-  hidden_ability: Ability.find_by(name: 'shell_armor'),
+  hidden_ability: Ability.find_by(name: 'shell_armor')
 )
 
 Pokemon.create!(
@@ -39,7 +39,7 @@ Pokemon.create!(
   speed: 60,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'torrent'),
-  hidden_ability: Ability.find_by(name: 'shell_armor'),
+  hidden_ability: Ability.find_by(name: 'shell_armor')
 )
 
 Pokemon.create!(
@@ -61,7 +61,7 @@ Pokemon.create!(
   speed: 70,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'torrent'),
-  hidden_ability: Ability.find_by(name: 'shell_armor'),
+  hidden_ability: Ability.find_by(name: 'shell_armor')
 )
 
 Pokemon.create!(
@@ -84,7 +84,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'run_away'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'analytic'),
+  hidden_ability: Ability.find_by(name: 'analytic')
 )
 
 Pokemon.create!(
@@ -107,7 +107,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'illuminate'),
   ability_2: Ability.find_by(name: 'keen_eye'),
-  hidden_ability: Ability.find_by(name: 'analytic'),
+  hidden_ability: Ability.find_by(name: 'analytic')
 )
 
 Pokemon.create!(
@@ -130,7 +130,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'vital_spirit'),
   ability_2: Ability.find_by(name: 'pickup'),
-  hidden_ability: Ability.find_by(name: 'run_away'),
+  hidden_ability: Ability.find_by(name: 'run_away')
 )
 
 Pokemon.create!(
@@ -153,7 +153,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'intimidate'),
   ability_2: Ability.find_by(name: 'sand_rush'),
-  hidden_ability: Ability.find_by(name: 'scrappy'),
+  hidden_ability: Ability.find_by(name: 'scrappy')
 )
 
 Pokemon.create!(
@@ -176,7 +176,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Normal'),
   ability_1: Ability.find_by(name: 'intimidate'),
   ability_2: Ability.find_by(name: 'sand_rush'),
-  hidden_ability: Ability.find_by(name: 'scrappy'),
+  hidden_ability: Ability.find_by(name: 'scrappy')
 )
 
 Pokemon.create!(
@@ -199,7 +199,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'limber'),
   ability_2: Ability.find_by(name: 'unburden'),
-  hidden_ability: Ability.find_by(name: 'prankster'),
+  hidden_ability: Ability.find_by(name: 'prankster')
 )
 
 Pokemon.create!(
@@ -222,7 +222,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Dark'),
   ability_1: Ability.find_by(name: 'limber'),
   ability_2: Ability.find_by(name: 'unburden'),
-  hidden_ability: Ability.find_by(name: 'prankster'),
+  hidden_ability: Ability.find_by(name: 'prankster')
 )
 
 Pokemon.create!(
@@ -244,7 +244,7 @@ Pokemon.create!(
   speed: 64,
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'overgrow'),
+  hidden_ability: Ability.find_by(name: 'overgrow')
 )
 
 Pokemon.create!(
@@ -266,7 +266,7 @@ Pokemon.create!(
   speed: 101,
   type_1: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'overgrow'),
+  hidden_ability: Ability.find_by(name: 'overgrow')
 )
 
 Pokemon.create!(
@@ -288,7 +288,7 @@ Pokemon.create!(
   speed: 64,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'blaze'),
+  hidden_ability: Ability.find_by(name: 'blaze')
 )
 
 Pokemon.create!(
@@ -310,7 +310,7 @@ Pokemon.create!(
   speed: 101,
   type_1: Type.find_by(name: 'Fire'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'blaze'),
+  hidden_ability: Ability.find_by(name: 'blaze')
 )
 
 Pokemon.create!(
@@ -332,7 +332,7 @@ Pokemon.create!(
   speed: 64,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'torrent'),
+  hidden_ability: Ability.find_by(name: 'torrent')
 )
 
 Pokemon.create!(
@@ -354,7 +354,7 @@ Pokemon.create!(
   speed: 101,
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'gluttony'),
-  hidden_ability: Ability.find_by(name: 'torrent'),
+  hidden_ability: Ability.find_by(name: 'torrent')
 )
 
 Pokemon.create!(
@@ -377,7 +377,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'forewarn'),
   ability_2: Ability.find_by(name: 'synchronize'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -400,7 +400,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'forewarn'),
   ability_2: Ability.find_by(name: 'synchronize'),
-  hidden_ability: Ability.find_by(name: 'telepathy'),
+  hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
 Pokemon.create!(
@@ -424,7 +424,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'big_pecks'),
   ability_2: Ability.find_by(name: 'super_luck'),
-  hidden_ability: Ability.find_by(name: 'rivalry'),
+  hidden_ability: Ability.find_by(name: 'rivalry')
 )
 
 Pokemon.create!(
@@ -448,5 +448,5 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'big_pecks'),
   ability_2: Ability.find_by(name: 'super_luck'),
-  hidden_ability: Ability.find_by(name: 'rivalry'),
+  hidden_ability: Ability.find_by(name: 'rivalry')
 )

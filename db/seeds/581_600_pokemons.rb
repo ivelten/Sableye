@@ -19,7 +19,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'keen_eye'),
   ability_2: Ability.find_by(name: 'big_pecks'),
-  hidden_ability: Ability.find_by(name: 'hydration'),
+  hidden_ability: Ability.find_by(name: 'hydration')
 )
 
 Pokemon.create!(
@@ -42,7 +42,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'ice_body'),
   ability_2: Ability.find_by(name: 'snow_cloak'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )
 
 Pokemon.create!(
@@ -65,7 +65,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'ice_body'),
   ability_2: Ability.find_by(name: 'snow_cloak'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )
 
 Pokemon.create!(
@@ -88,7 +88,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Ice'),
   ability_1: Ability.find_by(name: 'ice_body'),
   ability_2: Ability.find_by(name: 'snow_warning'),
-  hidden_ability: Ability.find_by(name: 'weak_armor'),
+  hidden_ability: Ability.find_by(name: 'weak_armor')
 )
 
 Pokemon.create!(
@@ -112,7 +112,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'sap_sipper'),
-  hidden_ability: Ability.find_by(name: 'serene_grace'),
+  hidden_ability: Ability.find_by(name: 'serene_grace')
 )
 
 Pokemon.create!(
@@ -136,7 +136,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Grass'),
   ability_1: Ability.find_by(name: 'chlorophyll'),
   ability_2: Ability.find_by(name: 'sap_sipper'),
-  hidden_ability: Ability.find_by(name: 'serene_grace'),
+  hidden_ability: Ability.find_by(name: 'serene_grace')
 )
 
 Pokemon.create!(
@@ -159,7 +159,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Electric'),
   type_2: Type.find_by(name: 'Flying'),
   ability_1: Ability.find_by(name: 'static'),
-  hidden_ability: Ability.find_by(name: 'motor_drive'),
+  hidden_ability: Ability.find_by(name: 'motor_drive')
 )
 
 Pokemon.create!(
@@ -182,7 +182,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Bug'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'shed_skin'),
-  hidden_ability: Ability.find_by(name: 'no_guard'),
+  hidden_ability: Ability.find_by(name: 'no_guard')
 )
 
 Pokemon.create!(
@@ -206,7 +206,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'swarm'),
   ability_2: Ability.find_by(name: 'shell_armor'),
-  hidden_ability: Ability.find_by(name: 'overcoat'),
+  hidden_ability: Ability.find_by(name: 'overcoat')
 )
 
 Pokemon.create!(
@@ -229,7 +229,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'effect_spore'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -252,7 +252,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Poison'),
   ability_1: Ability.find_by(name: 'effect_spore'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -276,7 +276,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ghost'),
   ability_1: Ability.find_by(name: 'water_absorb'),
   ability_2: Ability.find_by(name: 'cursed_body'),
-  hidden_ability: Ability.find_by(name: 'damp'),
+  hidden_ability: Ability.find_by(name: 'damp')
 )
 
 Pokemon.create!(
@@ -300,7 +300,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Ghost'),
   ability_1: Ability.find_by(name: 'water_absorb'),
   ability_2: Ability.find_by(name: 'cursed_body'),
-  hidden_ability: Ability.find_by(name: 'damp'),
+  hidden_ability: Ability.find_by(name: 'damp')
 )
 
 Pokemon.create!(
@@ -310,7 +310,7 @@ Pokemon.create!(
   height: 1.2,
   weight: 31.6,
   capture_rate: 75,
-  base_egg_steps: 10240,
+  base_egg_steps: 10_240,
   male_gender_ratio: 50,
   experience_growth: 800_000,
   base_happiness: 70,
@@ -323,7 +323,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   ability_1: Ability.find_by(name: 'healer'),
   ability_2: Ability.find_by(name: 'hydration'),
-  hidden_ability: Ability.find_by(name: 'regenerator'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -347,7 +347,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'compoundeyes'),
   ability_2: Ability.find_by(name: 'unnerve'),
-  hidden_ability: Ability.find_by(name: 'swarm'),
+  hidden_ability: Ability.find_by(name: 'swarm')
 )
 
 Pokemon.create!(
@@ -371,7 +371,7 @@ Pokemon.create!(
   type_2: Type.find_by(name: 'Electric'),
   ability_1: Ability.find_by(name: 'compoundeyes'),
   ability_2: Ability.find_by(name: 'unnerve'),
-  hidden_ability: Ability.find_by(name: 'swarm'),
+  hidden_ability: Ability.find_by(name: 'swarm')
 )
 
 Pokemon.create!(
@@ -393,7 +393,7 @@ Pokemon.create!(
   speed: 10,
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Steel'),
-  ability_1: Ability.find_by(name: 'iron_barbs'),
+  ability_1: Ability.find_by(name: 'iron_barbs')
 )
 
 Pokemon.create!(
@@ -416,7 +416,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'iron_barbs'),
-  hidden_ability: Ability.find_by(name: 'anticipation'),
+  hidden_ability: Ability.find_by(name: 'anticipation')
 )
 
 Pokemon.create!(
@@ -438,7 +438,7 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'plus'),
   ability_2: Ability.find_by(name: 'minus'),
-  hidden_ability: Ability.find_by(name: 'clear_body'),
+  hidden_ability: Ability.find_by(name: 'clear_body')
 )
 
 Pokemon.create!(
@@ -460,5 +460,5 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Steel'),
   ability_1: Ability.find_by(name: 'plus'),
   ability_2: Ability.find_by(name: 'minus'),
-  hidden_ability: Ability.find_by(name: 'clear_body'),
+  hidden_ability: Ability.find_by(name: 'clear_body')
 )
