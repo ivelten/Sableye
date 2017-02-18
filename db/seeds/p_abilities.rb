@@ -13,7 +13,8 @@ Ability.create!(
 Ability.create!(
   name: 'pickup',
   description: 'Pickup',
-  effect: 'The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.'
+  effect: 'The Pokémon may pick up the item an opposing Pokémon used during a battle. ' \
+  'It may pick up items outside of battle, too.'
 )
 
 Ability.create!(
@@ -49,7 +50,8 @@ Ability.create!(
 Ability.create!(
   name: 'power_construct',
   description: 'Power Construct',
-  effect: 'Other Cells gather to aid when its HP becomes half or less. Then the Pokémon changes its form to Complete Forme.'
+  effect: 'Other Cells gather to aid when its HP becomes half or less. ' \
+  'Then the Pokémon changes its form to Complete Forme.'
 )
 
 Ability.create!(

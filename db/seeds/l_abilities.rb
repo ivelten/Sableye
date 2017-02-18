@@ -19,7 +19,8 @@ Ability.create!(
 Ability.create!(
   name: 'lightningrod',
   description: 'Lightningrod',
-  effect: 'The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.'
+  effect: 'The Pokémon draws in all Electric-type moves. Instead of being ' \
+  'hit by Electric-type moves, it boosts its Sp. Atk.'
 )
 
 Ability.create!(

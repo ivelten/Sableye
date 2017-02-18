@@ -181,7 +181,8 @@ Ability.create!(
 Ability.create!(
   name: 'stance_change',
   description: 'Stance Change',
-  effect: 'The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King\'s Shield.'
+  effect: 'The Pokémon changes its form to Blade Forme when it uses an attack move, ' \
+  'and changes to Shield Forme when it uses King\'s Shield.'
 )
 
 Ability.create!(
@@ -277,5 +278,6 @@ Ability.create!(
 Ability.create!(
   name: 'synchronize',
   description: 'Synchronize',
-  effect: 'The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.'
+  effect: 'The attacker will receive the same status condition if it inflicts ' \
+  'a burn, poison, or paralysis to the Pokémon.'
 )

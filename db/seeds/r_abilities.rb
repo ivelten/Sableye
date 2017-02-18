@@ -37,7 +37,8 @@ Ability.create!(
 Ability.create!(
   name: 'rivalry',
   description: 'Rivalry',
-  effect: 'Becomes competitive and deals more damage to Pokémon of the same gender, but deals less to Pokémon of the opposite gender.'
+  effect: 'Becomes competitive and deals more damage to Pokémon of the same gender, ' \
+  'but deals less to Pokémon of the opposite gender.'
 )
 
 Ability.create!(

@@ -55,7 +55,8 @@ Ability.create!(
 Ability.create!(
   name: 'download',
   description: 'Download',
-  effect: 'Compares an opposing Pokémon\'s Defense and Sp. Def stats before raising its own Attack or Sp. Atk statâwhichever will be more effective.'
+  effect: 'Compares an opposing Pokémon\'s Defense and Sp. Def stats before raising its own ' \
+  'Attack or Sp. Atk stat, whichever will be more effective.'
 )
 
 Ability.create!(
@@ -73,5 +74,6 @@ Ability.create!(
 Ability.create!(
   name: 'dry_skin',
   description: 'Dry Skin',
-  effect: 'Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, and increases the damage received from Fire-type moves.'
+  effect: 'Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, ' \
+  'and increases the damage received from Fire-type moves.'
 )

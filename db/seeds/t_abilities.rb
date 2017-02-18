@@ -31,7 +31,8 @@ Ability.create!(
 Ability.create!(
   name: 'thick_fat',
   description: 'Thick Fat',
-  effect: 'The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.'
+  effect: 'The Pokémon is protected by a layer of thick fat, which halves the ' \
+  'damage taken from Fire- and Ice-type moves.'
 )
 
 Ability.create!(

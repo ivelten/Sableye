@@ -19,7 +19,8 @@ Ability.create!(
 Ability.create!(
   name: 'battle_bond',
   description: 'Battle Bond',
-  effect: 'Defeating an opposing Pokémon strengthens the Pokémon\'s bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.'
+  effect: 'Defeating an opposing Pokémon strengthens the Pokémon\'s bond with its Trainer, ' \
+  'and it becomes Ash-Greninja. Water Shuriken gets more powerful.'
 )
 
 Ability.create!(
