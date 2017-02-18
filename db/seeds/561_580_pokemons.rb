@@ -378,8 +378,8 @@ Pokemon.create!(
   speed: 20,
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
-  ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard')
+  ability_2: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -401,8 +401,8 @@ Pokemon.create!(
   speed: 30,
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
-  ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard')
+  ability_2: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
@@ -424,8 +424,8 @@ Pokemon.create!(
   speed: 30,
   type_1: Type.find_by(name: 'Psychic'),
   ability_1: Ability.find_by(name: 'overcoat'),
-  ability_2: Ability.find_by(name: 'powder_moves'),
-  hidden_ability: Ability.find_by(name: 'magic_guard')
+  ability_2: Ability.find_by(name: 'magic_guard'),
+  hidden_ability: Ability.find_by(name: 'regenerator')
 )
 
 Pokemon.create!(
