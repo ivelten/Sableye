@@ -327,9 +327,7 @@ Pokemon.create!(
   sp_defense: 95,
   speed: 65,
   type_1: Type.find_by(name: 'Normal'),
-  ability_1: Ability.find_by(name: 'comatose'),
-  ability_2: Ability.find_by(name: 'snore'),
-  hidden_ability: Ability.find_by(name: 'sleep_talk')
+  ability_1: Ability.find_by(name: 'comatose')
 )
 
 Pokemon.create!(

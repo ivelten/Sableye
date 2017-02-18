@@ -109,7 +109,6 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Electric'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'electric_surge'),
-  ability_2: Ability.find_by(name: 'electric_terrain'),
   hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
@@ -132,7 +131,6 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Psychic'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'psychic_surge'),
-  ability_2: Ability.find_by(name: 'psychic_terrain'),
   hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
@@ -155,7 +153,6 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Grass'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'grassy_surge'),
-  ability_2: Ability.find_by(name: 'grassy_terrain'),
   hidden_ability: Ability.find_by(name: 'telepathy')
 )
 
@@ -178,7 +175,6 @@ Pokemon.create!(
   type_1: Type.find_by(name: 'Water'),
   type_2: Type.find_by(name: 'Fairy'),
   ability_1: Ability.find_by(name: 'misty_surge'),
-  ability_2: Ability.find_by(name: 'misty_terrain'),
   hidden_ability: Ability.find_by(name: 'telepathy')
 )
 

@@ -296,7 +296,7 @@ Move.create!(
 Move.create!(
   name: 'arm_thrust',
   description: 'Arm Thrust',
-  type: Type.find_by(name: 'Fight'),
+  type: Type.find_by(name: 'Fighting'),
   category: MoveCategory.find_by(name: 'Physical'),
   power_points: 20,
   base_power: 15,
@@ -418,7 +418,7 @@ Move.create!(
 Move.create!(
   name: 'aura_sphere',
   description: 'Aura Sphere',
-  type: Type.find_by(name: 'Fight'),
+  type: Type.find_by(name: 'Fighting'),
   category: MoveCategory.find_by(name: 'Special'),
   power_points: 20,
   base_power: 80,

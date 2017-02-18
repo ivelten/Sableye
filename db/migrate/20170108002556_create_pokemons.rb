@@ -8,7 +8,7 @@ class CreatePokemons < ActiveRecord::Migration[5.0]
       t.decimal :weight, null: false
       t.integer :capture_rate, null: false
       t.integer :base_egg_steps, null: false
-      t.decimal :male_gender_ratio, null: false
+      t.decimal :male_gender_ratio
       t.integer :experience_growth, null: false
       t.integer :base_happiness, null: false
       t.integer :hp, null: false
